@@ -1,0 +1,6636 @@
+[
+  {
+    "article_id": "article1",
+    "spans": [
+      {
+        "article_id": "article1",
+        "start": 148,
+        "end": 156,
+        "si_label": "PROP",
+        "text": "conflict",
+        "span_id": "article1:148:156",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      }
+    ]
+  },
+  {
+    "article_id": "article10",
+    "spans": []
+  },
+  {
+    "article_id": "article102",
+    "spans": [
+      {
+        "article_id": "article102",
+        "start": 766,
+        "end": 781,
+        "si_label": "PROP",
+        "text": "removable alien",
+        "span_id": "article102:766:781",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article102",
+        "start": 2620,
+        "end": 2626,
+        "si_label": "PROP",
+        "text": "strong",
+        "span_id": "article102:2620:2626",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article102",
+        "start": 2640,
+        "end": 2708,
+        "si_label": "PROP",
+        "text": "a great parent who has done everything she can to support her family",
+        "span_id": "article102:2640:2708",
+        "tc_label": "Loaded_Language",
+        "tc_idx": 8
+      }
+    ]
+  },
+  {
+    "article_id": "article117",
+    "spans": [
+      {
+        "article_id": "article117",
+        "start": 992,
+        "end": 997,
+        "si_label": "PROP",
+        "text": "tense",
+        "span_id": "article117:992:997",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article117",
+        "start": 1642,
+        "end": 1650,
+        "si_label": "PROP",
+        "text": "obsessed",
+        "span_id": "article117:1642:1650",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article117",
+        "start": 2384,
+        "end": 2396,
+        "si_label": "PROP",
+        "text": "scapegoating",
+        "span_id": "article117:2384:2396",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article117",
+        "start": 2608,
+        "end": 2609,
+        "si_label": "PROP",
+        "text": "“",
+        "span_id": "article117:2608:2609",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article117",
+        "start": 2609,
+        "end": 2618,
+        "si_label": "PROP",
+        "text": "tinderbox",
+        "span_id": "article117:2609:2618",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article117",
+        "start": 2704,
+        "end": 2764,
+        "si_label": "PROP",
+        "text": "the country is close to “ civil disobedience on a vast scale .",
+        "span_id": "article117:2704:2764",
+        "tc_label": "Slogans",
+        "tc_idx": 11
+      },
+      {
+        "article_id": "article117",
+        "start": 3027,
+        "end": 3039,
+        "si_label": "PROP",
+        "text": "Britain is “",
+        "span_id": "article117:3027:3039",
+        "tc_label": "Flag-Waving",
+        "tc_idx": 7
+      },
+      {
+        "article_id": "article117",
+        "start": 3039,
+        "end": 3111,
+        "si_label": "PROP",
+        "text": "a successful multi - ethnic , multi - faith country , ” but the government must",
+        "span_id": "article117:3039:3111",
+        "tc_label": "Flag-Waving",
+        "tc_idx": 7
+      },
+      {
+        "article_id": "article117",
+        "start": 4462,
+        "end": 4470,
+        "si_label": "PROP",
+        "text": "violence",
+        "span_id": "article117:4462:4470",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article117",
+        "start": 4844,
+        "end": 4857,
+        "si_label": "PROP",
+        "text": "toxic content",
+        "span_id": "article117:4844:4857",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article117",
+        "start": 4903,
+        "end": 4935,
+        "si_label": "PROP",
+        "text": "self - styled free - speech champion",
+        "span_id": "article117:4903:4935",
+        "tc_label": "Loaded_Language",
+        "tc_idx": 8
+      }
+    ]
+  },
+  {
+    "article_id": "article123",
+    "spans": [
+      {
+        "article_id": "article123",
+        "start": 1594,
+        "end": 1624,
+        "si_label": "PROP",
+        "text": "We do n’t have any other choice",
+        "span_id": "article123:1594:1624",
+        "tc_label": "Whataboutism,Straw_Men,Red_Herring",
+        "tc_idx": 13
+      }
+    ]
+  },
+  {
+    "article_id": "article128",
+    "spans": [
+      {
+        "article_id": "article128",
+        "start": 187,
+        "end": 197,
+        "si_label": "PROP",
+        "text": "mistakenly",
+        "span_id": "article128:187:197",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article128",
+        "start": 1517,
+        "end": 1550,
+        "si_label": "PROP",
+        "text": "harassment , torture or even death",
+        "span_id": "article128:1517:1550",
+        "tc_label": "Black-and-White_Fallacy",
+        "tc_idx": 3
+      },
+      {
+        "article_id": "article128",
+        "start": 2837,
+        "end": 2863,
+        "si_label": "PROP",
+        "text": "a government whistleblower",
+        "span_id": "article128:2837:2863",
+        "tc_label": "Loaded_Language",
+        "tc_idx": 8
+      },
+      {
+        "article_id": "article128",
+        "start": 3477,
+        "end": 3518,
+        "si_label": "PROP",
+        "text": "This data leak should never have happened",
+        "span_id": "article128:3477:3518",
+        "tc_label": "Slogans",
+        "tc_idx": 11
+      },
+      {
+        "article_id": "article128",
+        "start": 3530,
+        "end": 3549,
+        "si_label": "PROP",
+        "text": "unacceptable breach",
+        "span_id": "article128:3530:3549",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article128",
+        "start": 4064,
+        "end": 4088,
+        "si_label": "PROP",
+        "text": "completely shutting down",
+        "span_id": "article128:4064:4088",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      }
+    ]
+  },
+  {
+    "article_id": "article13",
+    "spans": [
+      {
+        "article_id": "article13",
+        "start": 2947,
+        "end": 2960,
+        "si_label": "PROP",
+        "text": "illegal alien",
+        "span_id": "article13:2947:2960",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article13",
+        "start": 3195,
+        "end": 3223,
+        "si_label": "PROP",
+        "text": "shoot officers in the head . \"",
+        "span_id": "article13:3195:3223",
+        "tc_label": "Black-and-White_Fallacy",
+        "tc_idx": 3
+      },
+      {
+        "article_id": "article13",
+        "start": 3395,
+        "end": 3412,
+        "si_label": "PROP",
+        "text": "dramatically ramp",
+        "span_id": "article13:3395:3412",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article13",
+        "start": 3636,
+        "end": 3658,
+        "si_label": "PROP",
+        "text": "the worst of the worst",
+        "span_id": "article13:3636:3658",
+        "tc_label": "Slogans",
+        "tc_idx": 11
+      },
+      {
+        "article_id": "article13",
+        "start": 4919,
+        "end": 4922,
+        "si_label": "PROP",
+        "text": "our",
+        "span_id": "article13:4919:4922",
+        "tc_label": "Flag-Waving",
+        "tc_idx": 7
+      }
+    ]
+  },
+  {
+    "article_id": "article161",
+    "spans": [
+      {
+        "article_id": "article161",
+        "start": 824,
+        "end": 830,
+        "si_label": "PROP",
+        "text": "hailed",
+        "span_id": "article161:824:830",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article161",
+        "start": 1718,
+        "end": 1723,
+        "si_label": "PROP",
+        "text": "vital",
+        "span_id": "article161:1718:1723",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article161",
+        "start": 2193,
+        "end": 2233,
+        "si_label": "PROP",
+        "text": "I am proud to be the President of PEACE !",
+        "span_id": "article161:2193:2233",
+        "tc_label": "Causal_Oversimplification",
+        "tc_idx": 4
+      },
+      {
+        "article_id": "article161",
+        "start": 3646,
+        "end": 3678,
+        "si_label": "PROP",
+        "text": "President Trump made this happen",
+        "span_id": "article161:3646:3678",
+        "tc_label": "Causal_Oversimplification",
+        "tc_idx": 4
+      },
+      {
+        "article_id": "article161",
+        "start": 3680,
+        "end": 3710,
+        "si_label": "PROP",
+        "text": "Give him the Nobel Peace Prize",
+        "span_id": "article161:3680:3710",
+        "tc_label": "Causal_Oversimplification",
+        "tc_idx": 4
+      },
+      {
+        "article_id": "article161",
+        "start": 4794,
+        "end": 4801,
+        "si_label": "PROP",
+        "text": "shouted",
+        "span_id": "article161:4794:4801",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      }
+    ]
+  },
+  {
+    "article_id": "article170",
+    "spans": [
+      {
+        "article_id": "article170",
+        "start": 724,
+        "end": 743,
+        "si_label": "PROP",
+        "text": "our border security",
+        "span_id": "article170:724:743",
+        "tc_label": "Flag-Waving",
+        "tc_idx": 7
+      },
+      {
+        "article_id": "article170",
+        "start": 1348,
+        "end": 1357,
+        "si_label": "PROP",
+        "text": "smuggling",
+        "span_id": "article170:1348:1357",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article170",
+        "start": 2218,
+        "end": 2226,
+        "si_label": "PROP",
+        "text": "perilous",
+        "span_id": "article170:2218:2226",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      }
+    ]
+  },
+  {
+    "article_id": "article171",
+    "spans": [
+      {
+        "article_id": "article171",
+        "start": 955,
+        "end": 962,
+        "si_label": "PROP",
+        "text": "illegal",
+        "span_id": "article171:955:962",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article171",
+        "start": 1476,
+        "end": 1488,
+        "si_label": "PROP",
+        "text": "unacceptable",
+        "span_id": "article171:1476:1488",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article171",
+        "start": 1499,
+        "end": 1506,
+        "si_label": "PROP",
+        "text": "serious",
+        "span_id": "article171:1499:1506",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article171",
+        "start": 2118,
+        "end": 2151,
+        "si_label": "PROP",
+        "text": "the traffickers and slave drivers",
+        "span_id": "article171:2118:2151",
+        "tc_label": "Loaded_Language",
+        "tc_idx": 8
+      }
+    ]
+  },
+  {
+    "article_id": "article174",
+    "spans": [
+      {
+        "article_id": "article174",
+        "start": 1018,
+        "end": 1025,
+        "si_label": "PROP",
+        "text": "We must",
+        "span_id": "article174:1018:1025",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      }
+    ]
+  },
+  {
+    "article_id": "article179",
+    "spans": [
+      {
+        "article_id": "article179",
+        "start": 0,
+        "end": 66,
+        "si_label": "PROP",
+        "text": "Relentless immigration raids are changing California 's way of life",
+        "span_id": "article179:0:66",
+        "tc_label": "Slogans",
+        "tc_idx": 11
+      },
+      {
+        "article_id": "article179",
+        "start": 873,
+        "end": 878,
+        "si_label": "PROP",
+        "text": "chaos",
+        "span_id": "article179:873:878",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article179",
+        "start": 888,
+        "end": 893,
+        "si_label": "PROP",
+        "text": "swept",
+        "span_id": "article179:888:893",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article179",
+        "start": 1295,
+        "end": 1306,
+        "si_label": "PROP",
+        "text": "immigration",
+        "span_id": "article179:1295:1306",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article179",
+        "start": 1408,
+        "end": 1413,
+        "si_label": "PROP",
+        "text": ", the",
+        "span_id": "article179:1408:1413",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article179",
+        "start": 1720,
+        "end": 1731,
+        "si_label": "PROP",
+        "text": ", the raids",
+        "span_id": "article179:1720:1731",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article179",
+        "start": 2251,
+        "end": 2252,
+        "si_label": "PROP",
+        "text": ".",
+        "span_id": "article179:2251:2252",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article179",
+        "start": 2676,
+        "end": 2706,
+        "si_label": "PROP",
+        "text": "labor , and human trafficking \" .",
+        "span_id": "article179:2676:2706",
+        "tc_label": "Black-and-White_Fallacy",
+        "tc_idx": 3
+      },
+      {
+        "article_id": "article179",
+        "start": 2937,
+        "end": 2957,
+        "si_label": "PROP",
+        "text": ", families and homes",
+        "span_id": "article179:2937:2957",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article179",
+        "start": 4183,
+        "end": 4195,
+        "si_label": "PROP",
+        "text": "descended on",
+        "span_id": "article179:4183:4195",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article179",
+        "start": 4844,
+        "end": 4854,
+        "si_label": "PROP",
+        "text": "wrenching ,",
+        "span_id": "article179:4844:4854",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article179",
+        "start": 5925,
+        "end": 5945,
+        "si_label": "PROP",
+        "text": "Miller was raised in",
+        "span_id": "article179:5925:5945",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article179",
+        "start": 5978,
+        "end": 5980,
+        "si_label": "PROP",
+        "text": "as",
+        "span_id": "article179:5978:5980",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article179",
+        "start": 6076,
+        "end": 6078,
+        "si_label": "PROP",
+        "text": "He",
+        "span_id": "article179:6076:6078",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article179",
+        "start": 6660,
+        "end": 6666,
+        "si_label": "PROP",
+        "text": "public",
+        "span_id": "article179:6660:6666",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      }
+    ]
+  },
+  {
+    "article_id": "article18",
+    "spans": [
+      {
+        "article_id": "article18",
+        "start": 241,
+        "end": 320,
+        "si_label": "PROP",
+        "text": "to assist families of impacted immigrants – a statement that was delayed by one",
+        "span_id": "article18:241:320",
+        "tc_label": "Name_Calling,Labeling",
+        "tc_idx": 9
+      },
+      {
+        "article_id": "article18",
+        "start": 428,
+        "end": 506,
+        "si_label": "PROP",
+        "text": "stadium . As one of the City of Angels ’ first major professional sports teams ,",
+        "span_id": "article18:428:506",
+        "tc_label": "Name_Calling,Labeling",
+        "tc_idx": 9
+      },
+      {
+        "article_id": "article18",
+        "start": 1418,
+        "end": 1426,
+        "si_label": "PROP",
+        "text": "the city",
+        "span_id": "article18:1418:1426",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article18",
+        "start": 3426,
+        "end": 3432,
+        "si_label": "PROP",
+        "text": "Ravine",
+        "span_id": "article18:3426:3432",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article18",
+        "start": 4178,
+        "end": 4241,
+        "si_label": "PROP",
+        "text": "denied entry to the grounds by the organization . Tonight ’s game",
+        "span_id": "article18:4178:4241",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article18",
+        "start": 4319,
+        "end": 4412,
+        "si_label": "PROP",
+        "text": "The Trump administration ’s version of what happened is quite different . US Customs and Border",
+        "span_id": "article18:4319:4412",
+        "tc_label": "Name_Calling,Labeling",
+        "tc_idx": 9
+      },
+      {
+        "article_id": "article18",
+        "start": 4995,
+        "end": 5002,
+        "si_label": "PROP",
+        "text": "Trump ’s",
+        "span_id": "article18:4995:5002",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article18",
+        "start": 7456,
+        "end": 7465,
+        "si_label": "PROP",
+        "text": "” the Los",
+        "span_id": "article18:7456:7465",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article18",
+        "start": 7474,
+        "end": 7506,
+        "si_label": "PROP",
+        "text": "Times reported . Frustration and",
+        "span_id": "article18:7474:7506",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article18",
+        "start": 7538,
+        "end": 7548,
+        "si_label": "PROP",
+        "text": "the agency",
+        "span_id": "article18:7538:7548",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article18",
+        "start": 8476,
+        "end": 8484,
+        "si_label": "PROP",
+        "text": "Thursday",
+        "span_id": "article18:8476:8484",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article18",
+        "start": 8692,
+        "end": 8738,
+        "si_label": "PROP",
+        "text": "unmarked federal law enforcement vehicles that",
+        "span_id": "article18:8692:8738",
+        "tc_label": "Loaded_Language",
+        "tc_idx": 8
+      },
+      {
+        "article_id": "article18",
+        "start": 9137,
+        "end": 9145,
+        "si_label": "PROP",
+        "text": "who they",
+        "span_id": "article18:9137:9145",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article18",
+        "start": 9619,
+        "end": 9633,
+        "si_label": "PROP",
+        "text": "in Los Angeles",
+        "span_id": "article18:9619:9633",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article18",
+        "start": 9927,
+        "end": 9932,
+        "si_label": "PROP",
+        "text": "said .",
+        "span_id": "article18:9927:9932",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article18",
+        "start": 11727,
+        "end": 11762,
+        "si_label": "PROP",
+        "text": "the final families remaining on the",
+        "span_id": "article18:11727:11762",
+        "tc_label": "Slogans",
+        "tc_idx": 11
+      },
+      {
+        "article_id": "article18",
+        "start": 13372,
+        "end": 13398,
+        "si_label": "PROP",
+        "text": "Dodgers employee – who she",
+        "span_id": "article18:13372:13398",
+        "tc_label": "Loaded_Language",
+        "tc_idx": 8
+      },
+      {
+        "article_id": "article18",
+        "start": 13658,
+        "end": 13688,
+        "si_label": "PROP",
+        "text": "her performance and she is not",
+        "span_id": "article18:13658:13688",
+        "tc_label": "Slogans",
+        "tc_idx": 11
+      },
+      {
+        "article_id": "article18",
+        "start": 14191,
+        "end": 14196,
+        "si_label": "PROP",
+        "text": ", you",
+        "span_id": "article18:14191:14196",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article18",
+        "start": 14781,
+        "end": 14798,
+        "si_label": "PROP",
+        "text": "“ The Dodgers have",
+        "span_id": "article18:14781:14798",
+        "tc_label": "Slogans",
+        "tc_idx": 11
+      },
+      {
+        "article_id": "article18",
+        "start": 15883,
+        "end": 15907,
+        "si_label": "PROP",
+        "text": "the team to denounce ICE",
+        "span_id": "article18:15883:15907",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article18",
+        "start": 15913,
+        "end": 15930,
+        "si_label": "PROP",
+        "text": ". In response to",
+        "span_id": "article18:15913:15930",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      }
+    ]
+  },
+  {
+    "article_id": "article19",
+    "spans": [
+      {
+        "article_id": "article19",
+        "start": 2011,
+        "end": 2015,
+        "si_label": "PROP",
+        "text": "stop",
+        "span_id": "article19:2011:2015",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article19",
+        "start": 2096,
+        "end": 2105,
+        "si_label": "PROP",
+        "text": "the water",
+        "span_id": "article19:2096:2105",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article19",
+        "start": 2257,
+        "end": 2263,
+        "si_label": "PROP",
+        "text": "law of",
+        "span_id": "article19:2257:2263",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article19",
+        "start": 2690,
+        "end": 2713,
+        "si_label": "PROP",
+        "text": "legal challenge and won",
+        "span_id": "article19:2690:2713",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      }
+    ]
+  },
+  {
+    "article_id": "article20",
+    "spans": [
+      {
+        "article_id": "article20",
+        "start": 148,
+        "end": 152,
+        "si_label": "PROP",
+        "text": "used",
+        "span_id": "article20:148:152",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article20",
+        "start": 647,
+        "end": 652,
+        "si_label": "PROP",
+        "text": "ended",
+        "span_id": "article20:647:652",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article20",
+        "start": 1014,
+        "end": 1019,
+        "si_label": "PROP",
+        "text": "( June",
+        "span_id": "article20:1014:1019",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article20",
+        "start": 1344,
+        "end": 1418,
+        "si_label": "PROP",
+        "text": "only be transferred to prison to serve the remainder of his sentence if he",
+        "span_id": "article20:1344:1418",
+        "tc_label": "Black-and-White_Fallacy",
+        "tc_idx": 3
+      }
+    ]
+  },
+  {
+    "article_id": "article21",
+    "spans": [
+      {
+        "article_id": "article21",
+        "start": 508,
+        "end": 513,
+        "si_label": "PROP",
+        "text": "UK in",
+        "span_id": "article21:508:513",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article21",
+        "start": 659,
+        "end": 795,
+        "si_label": "PROP",
+        "text": "overloaded . Floating haphazardly , a baby is yanked onto the boat , as they yell out for more people to climb aboard . Despite the dinghy",
+        "span_id": "article21:659:795",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article21",
+        "start": 862,
+        "end": 935,
+        "si_label": "PROP",
+        "text": ". On the shore , police officers stood by , watching . When I asked why no",
+        "span_id": "article21:862:935",
+        "tc_label": "Appeal_to_fear-prejudice",
+        "tc_idx": 1
+      }
+    ]
+  },
+  {
+    "article_id": "article214",
+    "spans": [
+      {
+        "article_id": "article214",
+        "start": 83,
+        "end": 92,
+        "si_label": "PROP",
+        "text": "center at",
+        "span_id": "article214:83:92",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article214",
+        "start": 191,
+        "end": 198,
+        "si_label": "PROP",
+        "text": "closing",
+        "span_id": "article214:191:198",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article214",
+        "start": 1652,
+        "end": 1668,
+        "si_label": "PROP",
+        "text": ", the Department",
+        "span_id": "article214:1652:1668",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article214",
+        "start": 2914,
+        "end": 2924,
+        "si_label": "PROP",
+        "text": "to dealing",
+        "span_id": "article214:2914:2924",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      }
+    ]
+  },
+  {
+    "article_id": "article219",
+    "spans": [
+      {
+        "article_id": "article219",
+        "start": 728,
+        "end": 748,
+        "si_label": "PROP",
+        "text": "the U.S. in Israel 's",
+        "span_id": "article219:728:748",
+        "tc_label": "Flag-Waving",
+        "tc_idx": 7
+      },
+      {
+        "article_id": "article219",
+        "start": 1147,
+        "end": 1202,
+        "si_label": "PROP",
+        "text": "according to a statement by U.S. Northern Command . The",
+        "span_id": "article219:1147:1202",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article219",
+        "start": 1203,
+        "end": 1269,
+        "si_label": "PROP",
+        "text": "deployment is part of a broader push by the administration to ramp",
+        "span_id": "article219:1203:1269",
+        "tc_label": "Repetition",
+        "tc_idx": 10
+      },
+      {
+        "article_id": "article219",
+        "start": 2028,
+        "end": 2032,
+        "si_label": "PROP",
+        "text": "said",
+        "span_id": "article219:2028:2032",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article219",
+        "start": 2081,
+        "end": 2133,
+        "si_label": "PROP",
+        "text": "from the Marine Corps Air Station New River in North",
+        "span_id": "article219:2081:2133",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article219",
+        "start": 2134,
+        "end": 2165,
+        "si_label": "PROP",
+        "text": "Carolina . U.S. Immigration and",
+        "span_id": "article219:2134:2165",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article219",
+        "start": 2396,
+        "end": 2406,
+        "si_label": "PROP",
+        "text": "is calling",
+        "span_id": "article219:2396:2406",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article219",
+        "start": 2408,
+        "end": 2417,
+        "si_label": "PROP",
+        "text": "Alligator",
+        "span_id": "article219:2408:2417",
+        "tc_label": "Loaded_Language",
+        "tc_idx": 8
+      },
+      {
+        "article_id": "article219",
+        "start": 2427,
+        "end": 2466,
+        "si_label": "PROP",
+        "text": "\" President President Donald Trump and",
+        "span_id": "article219:2427:2466",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article219",
+        "start": 2656,
+        "end": 2903,
+        "si_label": "PROP",
+        "text": "Fla. , July 1 , 2025 . Evelyn Hockstein / Reuters Capt Brittianie Funderburk , a spokesperson for the Florida National Guard , said earlier this week that the Guard personnel are being used to help secure the perimeter and perform administrative duties .",
+        "span_id": "article219:2656:2903",
+        "tc_label": "Appeal_to_Authority",
+        "tc_idx": 0
+      }
+    ]
+  },
+  {
+    "article_id": "article220",
+    "spans": [
+      {
+        "article_id": "article220",
+        "start": 688,
+        "end": 695,
+        "si_label": "PROP",
+        "text": "lawsuit",
+        "span_id": "article220:688:695",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article220",
+        "start": 2183,
+        "end": 2201,
+        "si_label": "PROP",
+        "text": "been ' targeted ' by",
+        "span_id": "article220:2183:2201",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      }
+    ]
+  },
+  {
+    "article_id": "article224",
+    "spans": []
+  },
+  {
+    "article_id": "article225",
+    "spans": [
+      {
+        "article_id": "article225",
+        "start": 1903,
+        "end": 1907,
+        "si_label": "PROP",
+        "text": ", it",
+        "span_id": "article225:1903:1907",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      }
+    ]
+  },
+  {
+    "article_id": "article227",
+    "spans": [
+      {
+        "article_id": "article227",
+        "start": 32,
+        "end": 60,
+        "si_label": "PROP",
+        "text": "- but the migrant deal could",
+        "span_id": "article227:32:60",
+        "tc_label": "Appeal_to_Authority",
+        "tc_idx": 0
+      },
+      {
+        "article_id": "article227",
+        "start": 64,
+        "end": 114,
+        "si_label": "PROP",
+        "text": "complicated 10 July 2025 Share Save Mark Easton •",
+        "span_id": "article227:64:114",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      }
+    ]
+  },
+  {
+    "article_id": "article233",
+    "spans": [
+      {
+        "article_id": "article233",
+        "start": 492,
+        "end": 502,
+        "si_label": "PROP",
+        "text": ", dubbed \"",
+        "span_id": "article233:492:502",
+        "tc_label": "Loaded_Language",
+        "tc_idx": 8
+      },
+      {
+        "article_id": "article233",
+        "start": 520,
+        "end": 542,
+        "si_label": "PROP",
+        "text": ", \" located at the site",
+        "span_id": "article233:520:542",
+        "tc_label": "Loaded_Language",
+        "tc_idx": 8
+      },
+      {
+        "article_id": "article233",
+        "start": 3217,
+        "end": 3228,
+        "si_label": "PROP",
+        "text": "appropriate",
+        "span_id": "article233:3217:3228",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article233",
+        "start": 3238,
+        "end": 3246,
+        "si_label": "PROP",
+        "text": "I looked",
+        "span_id": "article233:3238:3246",
+        "tc_label": "Whataboutism,Straw_Men,Red_Herring",
+        "tc_idx": 13
+      },
+      {
+        "article_id": "article233",
+        "start": 3353,
+        "end": 3370,
+        "si_label": "PROP",
+        "text": "treacherous swamp",
+        "span_id": "article233:3353:3370",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      }
+    ]
+  },
+  {
+    "article_id": "article234",
+    "spans": [
+      {
+        "article_id": "article234",
+        "start": 310,
+        "end": 351,
+        "si_label": "PROP",
+        "text": "We 'll only text you about setting up this",
+        "span_id": "article234:310:351",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      }
+    ]
+  },
+  {
+    "article_id": "article24",
+    "spans": [
+      {
+        "article_id": "article24",
+        "start": 366,
+        "end": 373,
+        "si_label": "PROP",
+        "text": "This is",
+        "span_id": "article24:366:373",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article24",
+        "start": 732,
+        "end": 737,
+        "si_label": "PROP",
+        "text": "year .",
+        "span_id": "article24:732:737",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article24",
+        "start": 1513,
+        "end": 1519,
+        "si_label": "PROP",
+        "text": "bosses",
+        "span_id": "article24:1513:1519",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article24",
+        "start": 3042,
+        "end": 3061,
+        "si_label": "PROP",
+        "text": "\" Eddy Montgomery ,",
+        "span_id": "article24:3042:3061",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article24",
+        "start": 3231,
+        "end": 3236,
+        "si_label": "PROP",
+        "text": ", but",
+        "span_id": "article24:3231:3236",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article24",
+        "start": 3406,
+        "end": 3417,
+        "si_label": "PROP",
+        "text": "these often",
+        "span_id": "article24:3406:3417",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      }
+    ]
+  },
+  {
+    "article_id": "article242",
+    "spans": [
+      {
+        "article_id": "article242",
+        "start": 2356,
+        "end": 2398,
+        "si_label": "PROP",
+        "text": "proximity to communities of Miccosukee and",
+        "span_id": "article242:2356:2398",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article242",
+        "start": 2772,
+        "end": 2779,
+        "si_label": "PROP",
+        "text": "Monday .",
+        "span_id": "article242:2772:2779",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article242",
+        "start": 2896,
+        "end": 2897,
+        "si_label": "PROP",
+        "text": ".",
+        "span_id": "article242:2896:2897",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article242",
+        "start": 2931,
+        "end": 2935,
+        "si_label": "PROP",
+        "text": "read",
+        "span_id": "article242:2931:2935",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article242",
+        "start": 3327,
+        "end": 3391,
+        "si_label": "PROP",
+        "text": "presidential nomination , said that Alligator Alcatraz would take",
+        "span_id": "article242:3327:3391",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article242",
+        "start": 6614,
+        "end": 6619,
+        "si_label": "PROP",
+        "text": "do n’t",
+        "span_id": "article242:6614:6619",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article242",
+        "start": 6888,
+        "end": 7004,
+        "si_label": "PROP",
+        "text": "are valid and even good faith criticisms because it ’s not going to impact the Everglades at all , ” the governor said ,",
+        "span_id": "article242:6888:7004",
+        "tc_label": "Appeal_to_fear-prejudice",
+        "tc_idx": 1
+      }
+    ]
+  },
+  {
+    "article_id": "article243",
+    "spans": []
+  },
+  {
+    "article_id": "article247",
+    "spans": [
+      {
+        "article_id": "article247",
+        "start": 552,
+        "end": 561,
+        "si_label": "PROP",
+        "text": "hardening",
+        "span_id": "article247:552:561",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article247",
+        "start": 1493,
+        "end": 1566,
+        "si_label": "PROP",
+        "text": ". Sea arrivals of people departing from northeastern Libya and trying to",
+        "span_id": "article247:1493:1566",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article247",
+        "start": 1580,
+        "end": 1722,
+        "si_label": "PROP",
+        "text": "via Greece ’s southern islands of Crete and Gavdos have exceeded 7,300 so far this year , according to estimates by the Greek government and aid",
+        "span_id": "article247:1580:1722",
+        "tc_label": "Black-and-White_Fallacy",
+        "tc_idx": 3
+      }
+    ]
+  },
+  {
+    "article_id": "article250",
+    "spans": [
+      {
+        "article_id": "article250",
+        "start": 156,
+        "end": 168,
+        "si_label": "PROP",
+        "text": "facility set",
+        "span_id": "article250:156:168",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      }
+    ]
+  },
+  {
+    "article_id": "article31",
+    "spans": [
+      {
+        "article_id": "article31",
+        "start": 1260,
+        "end": 1261,
+        "si_label": "PROP",
+        "text": "”",
+        "span_id": "article31:1260:1261",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article31",
+        "start": 1329,
+        "end": 1366,
+        "si_label": "PROP",
+        "text": "as undermining migrant rights . Indeed",
+        "span_id": "article31:1329:1366",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article31",
+        "start": 1851,
+        "end": 1856,
+        "si_label": "PROP",
+        "text": "year ,",
+        "span_id": "article31:1851:1856",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article31",
+        "start": 3135,
+        "end": 3145,
+        "si_label": "PROP",
+        "text": "rating but",
+        "span_id": "article31:3135:3145",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article31",
+        "start": 3394,
+        "end": 3396,
+        "si_label": "PROP",
+        "text": "’s",
+        "span_id": "article31:3394:3396",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article31",
+        "start": 4128,
+        "end": 4133,
+        "si_label": "PROP",
+        "text": "funds",
+        "span_id": "article31:4128:4133",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      }
+    ]
+  },
+  {
+    "article_id": "article32",
+    "spans": [
+      {
+        "article_id": "article32",
+        "start": 834,
+        "end": 838,
+        "si_label": "PROP",
+        "text": "poor",
+        "span_id": "article32:834:838",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article32",
+        "start": 886,
+        "end": 924,
+        "si_label": "PROP",
+        "text": "the agency after recent discrepancies .",
+        "span_id": "article32:886:924",
+        "tc_label": "Appeal_to_fear-prejudice",
+        "tc_idx": 1
+      },
+      {
+        "article_id": "article32",
+        "start": 1066,
+        "end": 1073,
+        "si_label": "PROP",
+        "text": "to hold",
+        "span_id": "article32:1066:1073",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article32",
+        "start": 1086,
+        "end": 1089,
+        "si_label": "PROP",
+        "text": "for",
+        "span_id": "article32:1086:1089",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article32",
+        "start": 1901,
+        "end": 1909,
+        "si_label": "PROP",
+        "text": "42 days ,",
+        "span_id": "article32:1901:1909",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article32",
+        "start": 1972,
+        "end": 1980,
+        "si_label": "PROP",
+        "text": "officers",
+        "span_id": "article32:1972:1980",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article32",
+        "start": 4262,
+        "end": 4263,
+        "si_label": "PROP",
+        "text": ",",
+        "span_id": "article32:4262:4263",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article32",
+        "start": 4580,
+        "end": 4582,
+        "si_label": "PROP",
+        "text": "as",
+        "span_id": "article32:4580:4582",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article32",
+        "start": 5626,
+        "end": 5661,
+        "si_label": "PROP",
+        "text": ", including whether some people are",
+        "span_id": "article32:5626:5661",
+        "tc_label": "Appeal_to_fear-prejudice",
+        "tc_idx": 1
+      },
+      {
+        "article_id": "article32",
+        "start": 5810,
+        "end": 5859,
+        "si_label": "PROP",
+        "text": "policies and practices themselves . We ’re seeing a",
+        "span_id": "article32:5810:5859",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      }
+    ]
+  },
+  {
+    "article_id": "article35",
+    "spans": [
+      {
+        "article_id": "article35",
+        "start": 301,
+        "end": 317,
+        "si_label": "PROP",
+        "text": "passages such as",
+        "span_id": "article35:301:317",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article35",
+        "start": 364,
+        "end": 385,
+        "si_label": "PROP",
+        "text": "score . Another is the",
+        "span_id": "article35:364:385",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      }
+    ]
+  },
+  {
+    "article_id": "article38",
+    "spans": [
+      {
+        "article_id": "article38",
+        "start": 2208,
+        "end": 2259,
+        "si_label": "PROP",
+        "text": "do n't have an economy , constitution , election , free",
+        "span_id": "article38:2208:2259",
+        "tc_label": "Flag-Waving",
+        "tc_idx": 7
+      },
+      {
+        "article_id": "article38",
+        "start": 3133,
+        "end": 3273,
+        "si_label": "PROP",
+        "text": "see . \" ‌ Kidanemariam has caused a stir in West Midlands and English running circles , winning Warrington park run five times , Telford 10k",
+        "span_id": "article38:3133:3273",
+        "tc_label": "Slogans",
+        "tc_idx": 11
+      },
+      {
+        "article_id": "article38",
+        "start": 4212,
+        "end": 4229,
+        "si_label": "PROP",
+        "text": "for things on the",
+        "span_id": "article38:4212:4229",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article38",
+        "start": 5173,
+        "end": 5201,
+        "si_label": "PROP",
+        "text": "said : \" For us Kidanemariam ’s",
+        "span_id": "article38:5173:5201",
+        "tc_label": "Causal_Oversimplification",
+        "tc_idx": 4
+      },
+      {
+        "article_id": "article38",
+        "start": 5208,
+        "end": 5217,
+        "si_label": "PROP",
+        "text": "is a real",
+        "span_id": "article38:5208:5217",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      }
+    ]
+  },
+  {
+    "article_id": "article4",
+    "spans": [
+      {
+        "article_id": "article4",
+        "start": 949,
+        "end": 955,
+        "si_label": "PROP",
+        "text": "was in",
+        "span_id": "article4:949:955",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article4",
+        "start": 1754,
+        "end": 1764,
+        "si_label": "PROP",
+        "text": "'s release",
+        "span_id": "article4:1754:1764",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article4",
+        "start": 1810,
+        "end": 1815,
+        "si_label": "PROP",
+        "text": ", has",
+        "span_id": "article4:1810:1815",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article4",
+        "start": 2484,
+        "end": 2518,
+        "si_label": "PROP",
+        "text": ". Please use Chrome browser for a",
+        "span_id": "article4:2484:2518",
+        "tc_label": "Doubt",
+        "tc_idx": 5
+      },
+      {
+        "article_id": "article4",
+        "start": 2920,
+        "end": 2931,
+        "si_label": "PROP",
+        "text": "policy , but",
+        "span_id": "article4:2920:2931",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article4",
+        "start": 3136,
+        "end": 3148,
+        "si_label": "PROP",
+        "text": "allegations .",
+        "span_id": "article4:3136:3148",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article4",
+        "start": 3467,
+        "end": 3487,
+        "si_label": "PROP",
+        "text": "the Sky News app for",
+        "span_id": "article4:3467:3487",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article4",
+        "start": 3607,
+        "end": 3614,
+        "si_label": "PROP",
+        "text": "custody",
+        "span_id": "article4:3607:3614",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article4",
+        "start": 3634,
+        "end": 3672,
+        "si_label": "PROP",
+        "text": "former Palestinian student at Columbia",
+        "span_id": "article4:3634:3672",
+        "tc_label": "Loaded_Language",
+        "tc_idx": 8
+      },
+      {
+        "article_id": "article4",
+        "start": 3672,
+        "end": 3673,
+        "si_label": "PROP",
+        "text": ",",
+        "span_id": "article4:3672:3673",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      }
+    ]
+  },
+  {
+    "article_id": "article427",
+    "spans": [
+      {
+        "article_id": "article427",
+        "start": 30,
+        "end": 56,
+        "si_label": "PROP",
+        "text": "Florida , led by the Marion",
+        "span_id": "article427:30:56",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article427",
+        "start": 64,
+        "end": 71,
+        "si_label": "PROP",
+        "text": "Sheriff",
+        "span_id": "article427:64:71",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article427",
+        "start": 189,
+        "end": 201,
+        "si_label": "PROP",
+        "text": "thought were",
+        "span_id": "article427:189:201",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article427",
+        "start": 545,
+        "end": 562,
+        "si_label": "PROP",
+        "text": "the Marion County",
+        "span_id": "article427:545:562",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article427",
+        "start": 592,
+        "end": 624,
+        "si_label": "PROP",
+        "text": "this operation together so these",
+        "span_id": "article427:592:624",
+        "tc_label": "Slogans",
+        "tc_idx": 11
+      },
+      {
+        "article_id": "article427",
+        "start": 926,
+        "end": 941,
+        "si_label": "PROP",
+        "text": "sexual conduct ,",
+        "span_id": "article427:926:941",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article427",
+        "start": 985,
+        "end": 990,
+        "si_label": "PROP",
+        "text": "human",
+        "span_id": "article427:985:990",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article427",
+        "start": 991,
+        "end": 1003,
+        "si_label": "PROP",
+        "text": "trafficking ,",
+        "span_id": "article427:991:1003",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article427",
+        "start": 1307,
+        "end": 1332,
+        "si_label": "PROP",
+        "text": "https://t.co/HyjvBD7xCh —",
+        "span_id": "article427:1307:1332",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article427",
+        "start": 1967,
+        "end": 1982,
+        "si_label": "PROP",
+        "text": "simple message .",
+        "span_id": "article427:1967:1982",
+        "tc_label": "Whataboutism,Straw_Men,Red_Herring",
+        "tc_idx": 13
+      },
+      {
+        "article_id": "article427",
+        "start": 1988,
+        "end": 2025,
+        "si_label": "PROP",
+        "text": "is how it 's supposed to work : federal",
+        "span_id": "article427:1988:2025",
+        "tc_label": "Flag-Waving",
+        "tc_idx": 7
+      },
+      {
+        "article_id": "article427",
+        "start": 2038,
+        "end": 2097,
+        "si_label": "PROP",
+        "text": "local officials working together to get trash like this off",
+        "span_id": "article427:2038:2097",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article427",
+        "start": 2306,
+        "end": 2319,
+        "si_label": "PROP",
+        "text": "announced the",
+        "span_id": "article427:2306:2319",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article427",
+        "start": 2397,
+        "end": 2402,
+        "si_label": "PROP",
+        "text": "press",
+        "span_id": "article427:2397:2402",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article427",
+        "start": 2540,
+        "end": 2577,
+        "si_label": "PROP",
+        "text": "there ... pic.twitter.com/FmevP3CxNk —",
+        "span_id": "article427:2540:2577",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article427",
+        "start": 2651,
+        "end": 2657,
+        "si_label": "PROP",
+        "text": "a year",
+        "span_id": "article427:2651:2657",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article427",
+        "start": 2806,
+        "end": 2880,
+        "si_label": "PROP",
+        "text": ". — Scott Coleman ( @bandphan ) July 31 , 2025 Advertisement Sherriff Billy",
+        "span_id": "article427:2806:2880",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article427",
+        "start": 2938,
+        "end": 3002,
+        "si_label": "PROP",
+        "text": ". Gold Star Hotel visits for them all . 💛 🖤 💚 Florida Sherriffs are",
+        "span_id": "article427:2938:3002",
+        "tc_label": "Slogans",
+        "tc_idx": 11
+      },
+      {
+        "article_id": "article427",
+        "start": 3065,
+        "end": 3148,
+        "si_label": "PROP",
+        "text": "my heart , THANK YOU ! Protecting innocent children should be a top priority , always !",
+        "span_id": "article427:3065:3148",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article427",
+        "start": 3216,
+        "end": 3276,
+        "si_label": "PROP",
+        "text": "are off the streets , and Florida is a little safer for kids .",
+        "span_id": "article427:3216:3276",
+        "tc_label": "Doubt",
+        "tc_idx": 5
+      },
+      {
+        "article_id": "article427",
+        "start": 3488,
+        "end": 3553,
+        "si_label": "PROP",
+        "text": "our great country has virtually stopped . Despite the radical left",
+        "span_id": "article427:3488:3553",
+        "tc_label": "Flag-Waving",
+        "tc_idx": 7
+      },
+      {
+        "article_id": "article427",
+        "start": 3556,
+        "end": 3634,
+        "si_label": "PROP",
+        "text": "lies , new legislation was n't needed to secure our border , just a new president",
+        "span_id": "article427:3556:3634",
+        "tc_label": "Whataboutism,Straw_Men,Red_Herring",
+        "tc_idx": 13
+      },
+      {
+        "article_id": "article427",
+        "start": 3688,
+        "end": 3737,
+        "si_label": "PROP",
+        "text": "president 's border policies and mass deportations",
+        "span_id": "article427:3688:3737",
+        "tc_label": "Flag-Waving",
+        "tc_idx": 7
+      }
+    ]
+  },
+  {
+    "article_id": "article428",
+    "spans": [
+      {
+        "article_id": "article428",
+        "start": 89,
+        "end": 115,
+        "si_label": "PROP",
+        "text": "Instead , AG Phil Weiser is",
+        "span_id": "article428:89:115",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article428",
+        "start": 122,
+        "end": 129,
+        "si_label": "PROP",
+        "text": "after a",
+        "span_id": "article428:122:129",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article428",
+        "start": 130,
+        "end": 197,
+        "si_label": "PROP",
+        "text": "sheriff 's deputy for helping ICE . The deputy pulled over a motorist",
+        "span_id": "article428:130:197",
+        "tc_label": "Loaded_Language",
+        "tc_idx": 8
+      },
+      {
+        "article_id": "article428",
+        "start": 251,
+        "end": 270,
+        "si_label": "PROP",
+        "text": "ICE , and they later",
+        "span_id": "article428:251:270",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article428",
+        "start": 336,
+        "end": 356,
+        "si_label": "PROP",
+        "text": "Colorado ’s sanctuary",
+        "span_id": "article428:336:356",
+        "tc_label": "Loaded_Language",
+        "tc_idx": 8
+      },
+      {
+        "article_id": "article428",
+        "start": 505,
+        "end": 518,
+        "si_label": "PROP",
+        "text": "Phil Weiser (",
+        "span_id": "article428:505:518",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article428",
+        "start": 584,
+        "end": 647,
+        "si_label": "PROP",
+        "text": "to a woman ’s ICE arrest Caroline Dias Goncalves was arrested",
+        "span_id": "article428:584:647",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article428",
+        "start": 770,
+        "end": 778,
+        "si_label": "PROP",
+        "text": "July 22 ,",
+        "span_id": "article428:770:778",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article428",
+        "start": 800,
+        "end": 805,
+        "si_label": "PROP",
+        "text": ") ...",
+        "span_id": "article428:800:805",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article428",
+        "start": 805,
+        "end": 815,
+        "si_label": "PROP",
+        "text": "Zwinck for",
+        "span_id": "article428:805:815",
+        "tc_label": "Loaded_Language",
+        "tc_idx": 8
+      },
+      {
+        "article_id": "article428",
+        "start": 816,
+        "end": 825,
+        "si_label": "PROP",
+        "text": "a driving",
+        "span_id": "article428:816:825",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article428",
+        "start": 1009,
+        "end": 1075,
+        "si_label": "PROP",
+        "text": "placed on paid leave . This is insane . Someone needs to step in and",
+        "span_id": "article428:1009:1075",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article428",
+        "start": 3223,
+        "end": 3248,
+        "si_label": "PROP",
+        "text": "in when a deputy is being",
+        "span_id": "article428:3223:3248",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article428",
+        "start": 3307,
+        "end": 3358,
+        "si_label": "PROP",
+        "text": "loss for words but , this is next level incredible 🤯",
+        "span_id": "article428:3307:3358",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      }
+    ]
+  },
+  {
+    "article_id": "article439",
+    "spans": [
+      {
+        "article_id": "article439",
+        "start": 251,
+        "end": 328,
+        "si_label": "PROP",
+        "text": "has worked in the phone shop for the last three years , and currently lives in",
+        "span_id": "article439:251:328",
+        "tc_label": "Name_Calling,Labeling",
+        "tc_idx": 9
+      }
+    ]
+  },
+  {
+    "article_id": "article441",
+    "spans": [
+      {
+        "article_id": "article441",
+        "start": 35,
+        "end": 48,
+        "si_label": "PROP",
+        "text": "topics Follow",
+        "span_id": "article441:35:48",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article441",
+        "start": 84,
+        "end": 166,
+        "si_label": "PROP",
+        "text": "to mirror Italy ’s controversial practice of sending some asylum seekers rescued at",
+        "span_id": "article441:84:166",
+        "tc_label": "Black-and-White_Fallacy",
+        "tc_idx": 3
+      },
+      {
+        "article_id": "article441",
+        "start": 1662,
+        "end": 1665,
+        "si_label": "PROP",
+        "text": "all",
+        "span_id": "article441:1662:1665",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article441",
+        "start": 3504,
+        "end": 3505,
+        "si_label": "PROP",
+        "text": "–",
+        "span_id": "article441:3504:3505",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      }
+    ]
+  },
+  {
+    "article_id": "article444",
+    "spans": [
+      {
+        "article_id": "article444",
+        "start": 599,
+        "end": 629,
+        "si_label": "PROP",
+        "text": "and transferred to a detention",
+        "span_id": "article444:599:629",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article444",
+        "start": 899,
+        "end": 906,
+        "si_label": "PROP",
+        "text": "centers",
+        "span_id": "article444:899:906",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article444",
+        "start": 1719,
+        "end": 1722,
+        "si_label": "PROP",
+        "text": "the",
+        "span_id": "article444:1719:1722",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article444",
+        "start": 2394,
+        "end": 2396,
+        "si_label": "PROP",
+        "text": "to",
+        "span_id": "article444:2394:2396",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article444",
+        "start": 2712,
+        "end": 2733,
+        "si_label": "PROP",
+        "text": "An Italian court held",
+        "span_id": "article444:2712:2733",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article444",
+        "start": 2739,
+        "end": 2795,
+        "si_label": "PROP",
+        "text": "year that migrants from Bangladesh and Egypt could n’t be",
+        "span_id": "article444:2739:2795",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article444",
+        "start": 2849,
+        "end": 2869,
+        "si_label": "PROP",
+        "text": "safe enough . Judges",
+        "span_id": "article444:2849:2869",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      }
+    ]
+  },
+  {
+    "article_id": "article451",
+    "spans": [
+      {
+        "article_id": "article451",
+        "start": 3,
+        "end": 26,
+        "si_label": "PROP",
+        "text": "the Park Hotel car park",
+        "span_id": "article451:3:26",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article451",
+        "start": 655,
+        "end": 707,
+        "si_label": "PROP",
+        "text": "men . Imposed by the Home Office with little notice ,",
+        "span_id": "article451:655:707",
+        "tc_label": "Appeal_to_fear-prejudice",
+        "tc_idx": 1
+      },
+      {
+        "article_id": "article451",
+        "start": 726,
+        "end": 735,
+        "si_label": "PROP",
+        "text": "a protest",
+        "span_id": "article451:726:735",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article451",
+        "start": 985,
+        "end": 1066,
+        "si_label": "PROP",
+        "text": "trouble . Two men were charged with public order offences . A Norfolk reporter said",
+        "span_id": "article451:985:1066",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article451",
+        "start": 1082,
+        "end": 1092,
+        "si_label": "PROP",
+        "text": "turned on ”",
+        "span_id": "article451:1082:1092",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article451",
+        "start": 1108,
+        "end": 1110,
+        "si_label": "PROP",
+        "text": "me",
+        "span_id": "article451:1108:1110",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article451",
+        "start": 1563,
+        "end": 1565,
+        "si_label": "PROP",
+        "text": "no",
+        "span_id": "article451:1563:1565",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article451",
+        "start": 1748,
+        "end": 1751,
+        "si_label": "PROP",
+        "text": "and",
+        "span_id": "article451:1748:1751",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article451",
+        "start": 1784,
+        "end": 1808,
+        "si_label": "PROP",
+        "text": "tensed up . Police parked",
+        "span_id": "article451:1784:1808",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article451",
+        "start": 3214,
+        "end": 3227,
+        "si_label": "PROP",
+        "text": "Leeds , London",
+        "span_id": "article451:3214:3227",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article451",
+        "start": 4289,
+        "end": 4305,
+        "si_label": "PROP",
+        "text": "attacks on young",
+        "span_id": "article451:4289:4305",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article451",
+        "start": 4313,
+        "end": 4316,
+        "si_label": "PROP",
+        "text": "The",
+        "span_id": "article451:4313:4316",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article451",
+        "start": 4915,
+        "end": 4927,
+        "si_label": "PROP",
+        "text": "gangs pulses",
+        "span_id": "article451:4915:4927",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article451",
+        "start": 5659,
+        "end": 5664,
+        "si_label": "PROP",
+        "text": "After",
+        "span_id": "article451:5659:5664",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article451",
+        "start": 5976,
+        "end": 5994,
+        "si_label": "PROP",
+        "text": "arrived on a small",
+        "span_id": "article451:5976:5994",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article451",
+        "start": 6312,
+        "end": 6343,
+        "si_label": "PROP",
+        "text": "presence of ex - British National",
+        "span_id": "article451:6312:6343",
+        "tc_label": "Name_Calling,Labeling",
+        "tc_idx": 9
+      },
+      {
+        "article_id": "article451",
+        "start": 6514,
+        "end": 6518,
+        "si_label": "PROP",
+        "text": "vice",
+        "span_id": "article451:6514:6518",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article451",
+        "start": 6652,
+        "end": 6654,
+        "si_label": "PROP",
+        "text": "go",
+        "span_id": "article451:6652:6654",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article451",
+        "start": 6850,
+        "end": 6859,
+        "si_label": "PROP",
+        "text": "n’t know .",
+        "span_id": "article451:6850:6859",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article451",
+        "start": 6940,
+        "end": 6957,
+        "si_label": "PROP",
+        "text": "walk past a woman",
+        "span_id": "article451:6940:6957",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article451",
+        "start": 7060,
+        "end": 7061,
+        "si_label": "PROP",
+        "text": ",",
+        "span_id": "article451:7060:7061",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article451",
+        "start": 7532,
+        "end": 7534,
+        "si_label": "PROP",
+        "text": "of",
+        "span_id": "article451:7532:7534",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article451",
+        "start": 7955,
+        "end": 7967,
+        "si_label": "PROP",
+        "text": "Rumours were",
+        "span_id": "article451:7955:7967",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article451",
+        "start": 8387,
+        "end": 8394,
+        "si_label": "PROP",
+        "text": ". Since",
+        "span_id": "article451:8387:8394",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article451",
+        "start": 8606,
+        "end": 8611,
+        "si_label": "PROP",
+        "text": "- star",
+        "span_id": "article451:8606:8611",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article451",
+        "start": 8698,
+        "end": 8705,
+        "si_label": "PROP",
+        "text": ", ” said",
+        "span_id": "article451:8698:8705",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article451",
+        "start": 8828,
+        "end": 8829,
+        "si_label": "PROP",
+        "text": "“",
+        "span_id": "article451:8828:8829",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article451",
+        "start": 9230,
+        "end": 9237,
+        "si_label": "PROP",
+        "text": "chicken",
+        "span_id": "article451:9230:9237",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article451",
+        "start": 9330,
+        "end": 9354,
+        "si_label": "PROP",
+        "text": "commissioner for England",
+        "span_id": "article451:9330:9354",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article451",
+        "start": 9354,
+        "end": 9355,
+        "si_label": "PROP",
+        "text": ",",
+        "span_id": "article451:9354:9355",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article451",
+        "start": 9461,
+        "end": 9522,
+        "si_label": "PROP",
+        "text": "though , when the world outside the hotels is one of low wages",
+        "span_id": "article451:9461:9522",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article451",
+        "start": 9696,
+        "end": 9719,
+        "si_label": "PROP",
+        "text": "got houses themselves , ”",
+        "span_id": "article451:9696:9719",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article451",
+        "start": 10286,
+        "end": 10348,
+        "si_label": "PROP",
+        "text": ". Rather , integration is what counts . The constituencies that",
+        "span_id": "article451:10286:10348",
+        "tc_label": "Appeal_to_Authority",
+        "tc_idx": 0
+      },
+      {
+        "article_id": "article451",
+        "start": 10694,
+        "end": 10771,
+        "si_label": "PROP",
+        "text": "communal spaces where people interact , remote working and even self - checkouts",
+        "span_id": "article451:10694:10771",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article451",
+        "start": 11013,
+        "end": 11021,
+        "si_label": "PROP",
+        "text": "innuendo",
+        "span_id": "article451:11013:11021",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article451",
+        "start": 11140,
+        "end": 11150,
+        "si_label": "PROP",
+        "text": "only takes",
+        "span_id": "article451:11140:11150",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article451",
+        "start": 11460,
+        "end": 11461,
+        "si_label": "PROP",
+        "text": ".",
+        "span_id": "article451:11460:11461",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      }
+    ]
+  },
+  {
+    "article_id": "article461",
+    "spans": [
+      {
+        "article_id": "article461",
+        "start": 540,
+        "end": 555,
+        "si_label": "PROP",
+        "text": "to revoking TPS",
+        "span_id": "article461:540:555",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article461",
+        "start": 581,
+        "end": 604,
+        "si_label": "PROP",
+        "text": "by judges In a 37-page",
+        "span_id": "article461:581:604",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article461",
+        "start": 815,
+        "end": 865,
+        "si_label": "PROP",
+        "text": ". “ By stereotyping the TPS program and immigrants",
+        "span_id": "article461:815:865",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article461",
+        "start": 1011,
+        "end": 1041,
+        "si_label": "PROP",
+        "text": "the discriminatory belief that",
+        "span_id": "article461:1011:1041",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article461",
+        "start": 1312,
+        "end": 1318,
+        "si_label": "PROP",
+        "text": "Biden -",
+        "span_id": "article461:1312:1318",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article461",
+        "start": 2693,
+        "end": 2696,
+        "si_label": "PROP",
+        "text": "and",
+        "span_id": "article461:2693:2696",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article461",
+        "start": 4462,
+        "end": 4494,
+        "si_label": "PROP",
+        "text": "and blistering opinions at lower",
+        "span_id": "article461:4462:4494",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article461",
+        "start": 4683,
+        "end": 4693,
+        "si_label": "PROP",
+        "text": "to proceed",
+        "span_id": "article461:4683:4693",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      }
+    ]
+  },
+  {
+    "article_id": "article47",
+    "spans": [
+      {
+        "article_id": "article47",
+        "start": 948,
+        "end": 957,
+        "si_label": "PROP",
+        "text": "Benjamin ,",
+        "span_id": "article47:948:957",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article47",
+        "start": 1532,
+        "end": 1541,
+        "si_label": "PROP",
+        "text": "that he ’s",
+        "span_id": "article47:1532:1541",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article47",
+        "start": 1721,
+        "end": 1724,
+        "si_label": "PROP",
+        "text": "are",
+        "span_id": "article47:1721:1724",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article47",
+        "start": 1929,
+        "end": 1933,
+        "si_label": "PROP",
+        "text": "that",
+        "span_id": "article47:1929:1933",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article47",
+        "start": 3241,
+        "end": 3250,
+        "si_label": "PROP",
+        "text": "return to",
+        "span_id": "article47:3241:3250",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      }
+    ]
+  },
+  {
+    "article_id": "article475",
+    "spans": [
+      {
+        "article_id": "article475",
+        "start": 727,
+        "end": 797,
+        "si_label": "PROP",
+        "text": "was to keep them safe . Many of these testimonies have been handed over",
+        "span_id": "article475:727:797",
+        "tc_label": "Appeal_to_Authority",
+        "tc_idx": 0
+      },
+      {
+        "article_id": "article475",
+        "start": 824,
+        "end": 837,
+        "si_label": "PROP",
+        "text": "investigation",
+        "span_id": "article475:824:837",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article475",
+        "start": 918,
+        "end": 965,
+        "si_label": "PROP",
+        "text": "of SYP itself . So far , at least five women have",
+        "span_id": "article475:918:965",
+        "tc_label": "Slogans",
+        "tc_idx": 11
+      },
+      {
+        "article_id": "article475",
+        "start": 971,
+        "end": 1075,
+        "si_label": "PROP",
+        "text": "forward alleging abuse , and three former SYP officers have been arrested on suspicion of historic sexual",
+        "span_id": "article475:971:1075",
+        "tc_label": "Repetition",
+        "tc_idx": 10
+      },
+      {
+        "article_id": "article475",
+        "start": 1199,
+        "end": 1203,
+        "si_label": "PROP",
+        "text": "been",
+        "span_id": "article475:1199:1203",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article475",
+        "start": 2322,
+        "end": 2330,
+        "si_label": "PROP",
+        "text": "problems",
+        "span_id": "article475:2322:2330",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article475",
+        "start": 2752,
+        "end": 2756,
+        "si_label": "PROP",
+        "text": "will",
+        "span_id": "article475:2752:2756",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article475",
+        "start": 2770,
+        "end": 2789,
+        "si_label": "PROP",
+        "text": "of rape and assault",
+        "span_id": "article475:2770:2789",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article475",
+        "start": 3304,
+        "end": 3308,
+        "si_label": "PROP",
+        "text": "that",
+        "span_id": "article475:3304:3308",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article475",
+        "start": 3421,
+        "end": 3448,
+        "si_label": "PROP",
+        "text": "Reform ’s law - and - order task",
+        "span_id": "article475:3421:3448",
+        "tc_label": "Loaded_Language",
+        "tc_idx": 8
+      },
+      {
+        "article_id": "article475",
+        "start": 4031,
+        "end": 4070,
+        "si_label": "PROP",
+        "text": "details as a hook to push the narrative",
+        "span_id": "article475:4031:4070",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article475",
+        "start": 4104,
+        "end": 4109,
+        "si_label": "PROP",
+        "text": "Blair",
+        "span_id": "article475:4104:4109",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article475",
+        "start": 4561,
+        "end": 4666,
+        "si_label": "PROP",
+        "text": ". They were not discussed when the scandal was reignited at the start of 2025 by the sudden interest from",
+        "span_id": "article475:4561:4666",
+        "tc_label": "Appeal_to_fear-prejudice",
+        "tc_idx": 1
+      },
+      {
+        "article_id": "article475",
+        "start": 4698,
+        "end": 4715,
+        "si_label": "PROP",
+        "text": "when Louise Casey",
+        "span_id": "article475:4698:4715",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article475",
+        "start": 5044,
+        "end": 5230,
+        "si_label": "PROP",
+        "text": ", but steered clear of any insinuation that police corruption may have played a part . She did , however , focus heavily on the ethnicity aspect of the report : that is , the “ clear evidence",
+        "span_id": "article475:5044:5230",
+        "tc_label": "Repetition",
+        "tc_idx": 10
+      },
+      {
+        "article_id": "article475",
+        "start": 5282,
+        "end": 5291,
+        "si_label": "PROP",
+        "text": "Pakistani",
+        "span_id": "article475:5282:5291",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article475",
+        "start": 5462,
+        "end": 5474,
+        "si_label": "PROP",
+        "text": "element that",
+        "span_id": "article475:5462:5474",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article475",
+        "start": 5516,
+        "end": 5518,
+        "si_label": "PROP",
+        "text": "of",
+        "span_id": "article475:5516:5518",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article475",
+        "start": 6048,
+        "end": 6176,
+        "si_label": "PROP",
+        "text": "and his current cabinet , and a rallying call for anti - woke crusaders on both sides of the Atlantic . And , as Casey confirmed , it",
+        "span_id": "article475:6048:6176",
+        "tc_label": "Loaded_Language",
+        "tc_idx": 8
+      },
+      {
+        "article_id": "article475",
+        "start": 6379,
+        "end": 6415,
+        "si_label": "PROP",
+        "text": "about “ community tensions ” was a key",
+        "span_id": "article475:6379:6415",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article475",
+        "start": 6531,
+        "end": 6561,
+        "si_label": "PROP",
+        "text": "only factor . And the desire on",
+        "span_id": "article475:6531:6561",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article475",
+        "start": 6785,
+        "end": 6798,
+        "si_label": "PROP",
+        "text": "ethnicity has",
+        "span_id": "article475:6785:6798",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article475",
+        "start": 6804,
+        "end": 6805,
+        "si_label": "PROP",
+        "text": "a",
+        "span_id": "article475:6804:6805",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article475",
+        "start": 7052,
+        "end": 7224,
+        "si_label": "PROP",
+        "text": "conversation ” about immigration and integration , yet virtually none on how authorities treat vulnerable women who come forward with accounts of sexual abuse . Nor has there",
+        "span_id": "article475:7052:7224",
+        "tc_label": "Name_Calling,Labeling",
+        "tc_idx": 9
+      },
+      {
+        "article_id": "article475",
+        "start": 7235,
+        "end": 7374,
+        "si_label": "PROP",
+        "text": "discourse on the sexualisation of young girls in the eyes of society that led to , as Cooper put it in her statement , “ a deep - rooted failure",
+        "span_id": "article475:7235:7374",
+        "tc_label": "Appeal_to_Authority",
+        "tc_idx": 0
+      },
+      {
+        "article_id": "article475",
+        "start": 7458,
+        "end": 7506,
+        "si_label": "PROP",
+        "text": "BBC dramatisation of the Rochdale grooming gangs",
+        "span_id": "article475:7458:7506",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article475",
+        "start": 7582,
+        "end": 7599,
+        "si_label": "PROP",
+        "text": "underage victim ’s",
+        "span_id": "article475:7582:7599",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article475",
+        "start": 7607,
+        "end": 7611,
+        "si_label": "PROP",
+        "text": "baby",
+        "span_id": "article475:7607:7611",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article475",
+        "start": 7814,
+        "end": 7842,
+        "si_label": "PROP",
+        "text": "victims deserved to be taken",
+        "span_id": "article475:7814:7842",
+        "tc_label": "Slogans",
+        "tc_idx": 11
+      },
+      {
+        "article_id": "article475",
+        "start": 7863,
+        "end": 7885,
+        "si_label": "PROP",
+        "text": "could be disregarded –",
+        "span_id": "article475:7863:7885",
+        "tc_label": "Slogans",
+        "tc_idx": 11
+      },
+      {
+        "article_id": "article475",
+        "start": 7886,
+        "end": 7902,
+        "si_label": "PROP",
+        "text": "as “ unreliable ” ,",
+        "span_id": "article475:7886:7902",
+        "tc_label": "Loaded_Language",
+        "tc_idx": 8
+      },
+      {
+        "article_id": "article475",
+        "start": 8145,
+        "end": 8147,
+        "si_label": "PROP",
+        "text": "on",
+        "span_id": "article475:8145:8147",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article475",
+        "start": 9038,
+        "end": 9051,
+        "si_label": "PROP",
+        "text": ". Perhaps the",
+        "span_id": "article475:9038:9051",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      }
+    ]
+  },
+  {
+    "article_id": "article477",
+    "spans": [
+      {
+        "article_id": "article477",
+        "start": 603,
+        "end": 605,
+        "si_label": "PROP",
+        "text": "as",
+        "span_id": "article477:603:605",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article477",
+        "start": 640,
+        "end": 780,
+        "si_label": "PROP",
+        "text": ", where Millions upon Millions of Illegal Aliens reside . These , and other such Cities , are the core of the Democrat Power Center , where they",
+        "span_id": "article477:640:780",
+        "tc_label": "Repetition",
+        "tc_idx": 10
+      },
+      {
+        "article_id": "article477",
+        "start": 826,
+        "end": 856,
+        "si_label": "PROP",
+        "text": ", cheat in Elections , and grow",
+        "span_id": "article477:826:856",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article477",
+        "start": 896,
+        "end": 939,
+        "si_label": "PROP",
+        "text": "Jobs and Benefits from Hardworking American",
+        "span_id": "article477:896:939",
+        "tc_label": "Flag-Waving",
+        "tc_idx": 7
+      },
+      {
+        "article_id": "article477",
+        "start": 950,
+        "end": 990,
+        "si_label": "PROP",
+        "text": "These Radical Left Democrats are sick of",
+        "span_id": "article477:950:990",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article477",
+        "start": 1019,
+        "end": 1081,
+        "si_label": "PROP",
+        "text": "actually want to destroy our Inner Cities — And they are doing",
+        "span_id": "article477:1019:1081",
+        "tc_label": "Slogans",
+        "tc_idx": 11
+      },
+      {
+        "article_id": "article477",
+        "start": 1337,
+        "end": 1338,
+        "si_label": "PROP",
+        "text": ",",
+        "span_id": "article477:1337:1338",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article477",
+        "start": 1408,
+        "end": 1409,
+        "si_label": "PROP",
+        "text": ",",
+        "span_id": "article477:1408:1409",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article477",
+        "start": 1514,
+        "end": 1525,
+        "si_label": "PROP",
+        "text": "behind this",
+        "span_id": "article477:1514:1525",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article477",
+        "start": 1771,
+        "end": 1787,
+        "si_label": "PROP",
+        "text": ", and preventing",
+        "span_id": "article477:1771:1787",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article477",
+        "start": 1792,
+        "end": 1815,
+        "si_label": "PROP",
+        "text": "admission of ANYONE who",
+        "span_id": "article477:1792:1815",
+        "tc_label": "Slogans",
+        "tc_idx": 11
+      },
+      {
+        "article_id": "article477",
+        "start": 1855,
+        "end": 1858,
+        "si_label": "PROP",
+        "text": "the",
+        "span_id": "article477:1855:1858",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article477",
+        "start": 1926,
+        "end": 1951,
+        "si_label": "PROP",
+        "text": "his deportation operation",
+        "span_id": "article477:1926:1951",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article477",
+        "start": 1988,
+        "end": 2020,
+        "si_label": "PROP",
+        "text": "rocked Los Angeles over the past",
+        "span_id": "article477:1988:2020",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article477",
+        "start": 2025,
+        "end": 2031,
+        "si_label": "PROP",
+        "text": ". The",
+        "span_id": "article477:2025:2031",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article477",
+        "start": 2098,
+        "end": 2108,
+        "si_label": "PROP",
+        "text": "Marines to",
+        "span_id": "article477:2098:2108",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article477",
+        "start": 2561,
+        "end": 2569,
+        "si_label": "PROP",
+        "text": "concrete",
+        "span_id": "article477:2561:2569",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article477",
+        "start": 2579,
+        "end": 2603,
+        "si_label": "PROP",
+        "text": "cocktails , and fireworks",
+        "span_id": "article477:2579:2603",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article477",
+        "start": 2705,
+        "end": 2735,
+        "si_label": "PROP",
+        "text": "Trump must return the National",
+        "span_id": "article477:2705:2735",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article477",
+        "start": 2885,
+        "end": 2928,
+        "si_label": "PROP",
+        "text": "administration over immigration enforcement",
+        "span_id": "article477:2885:2928",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article477",
+        "start": 3008,
+        "end": 3017,
+        "si_label": "PROP",
+        "text": "Hochul ( D",
+        "span_id": "article477:3008:3017",
+        "tc_label": "Name_Calling,Labeling",
+        "tc_idx": 9
+      },
+      {
+        "article_id": "article477",
+        "start": 3258,
+        "end": 3279,
+        "si_label": "PROP",
+        "text": "calling on Chicagoans",
+        "span_id": "article477:3258:3279",
+        "tc_label": "Flag-Waving",
+        "tc_idx": 7
+      },
+      {
+        "article_id": "article477",
+        "start": 3375,
+        "end": 3382,
+        "si_label": "PROP",
+        "text": "Whether",
+        "span_id": "article477:3375:3382",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article477",
+        "start": 3464,
+        "end": 3471,
+        "si_label": "PROP",
+        "text": "matters",
+        "span_id": "article477:3464:3471",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      }
+    ]
+  },
+  {
+    "article_id": "article478",
+    "spans": [
+      {
+        "article_id": "article478",
+        "start": 264,
+        "end": 271,
+        "si_label": "PROP",
+        "text": "asylum -",
+        "span_id": "article478:264:271",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article478",
+        "start": 299,
+        "end": 315,
+        "si_label": "PROP",
+        "text": "States to seek a",
+        "span_id": "article478:299:315",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article478",
+        "start": 329,
+        "end": 344,
+        "si_label": "PROP",
+        "text": "all immigration",
+        "span_id": "article478:329:344",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article478",
+        "start": 552,
+        "end": 602,
+        "si_label": "PROP",
+        "text": "back up their claims , which are designed to appeal",
+        "span_id": "article478:552:602",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article478",
+        "start": 606,
+        "end": 640,
+        "si_label": "PROP",
+        "text": "our emotions . The media , the Left ,",
+        "span_id": "article478:606:640",
+        "tc_label": "Loaded_Language",
+        "tc_idx": 8
+      },
+      {
+        "article_id": "article478",
+        "start": 690,
+        "end": 707,
+        "si_label": "PROP",
+        "text": "legal immigration",
+        "span_id": "article478:690:707",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article478",
+        "start": 759,
+        "end": 770,
+        "si_label": "PROP",
+        "text": "our country",
+        "span_id": "article478:759:770",
+        "tc_label": "Flag-Waving",
+        "tc_idx": 7
+      },
+      {
+        "article_id": "article478",
+        "start": 801,
+        "end": 905,
+        "si_label": "PROP",
+        "text": "obfuscate the core truth that unfettered mass migration has leveled disastrous consequences all over the",
+        "span_id": "article478:801:905",
+        "tc_label": "Black-and-White_Fallacy",
+        "tc_idx": 3
+      },
+      {
+        "article_id": "article478",
+        "start": 1000,
+        "end": 1016,
+        "si_label": "PROP",
+        "text": ". The difference",
+        "span_id": "article478:1000:1016",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article478",
+        "start": 1031,
+        "end": 1057,
+        "si_label": "PROP",
+        "text": "and illegal immigration is",
+        "span_id": "article478:1031:1057",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article478",
+        "start": 1071,
+        "end": 1087,
+        "si_label": "PROP",
+        "text": "but foundational",
+        "span_id": "article478:1071:1087",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article478",
+        "start": 1106,
+        "end": 1130,
+        "si_label": "PROP",
+        "text": ", when properly done , is",
+        "span_id": "article478:1106:1130",
+        "tc_label": "Appeal_to_Authority",
+        "tc_idx": 0
+      },
+      {
+        "article_id": "article478",
+        "start": 1131,
+        "end": 1149,
+        "si_label": "PROP",
+        "text": "structured , vetted",
+        "span_id": "article478:1131:1149",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article478",
+        "start": 2341,
+        "end": 2370,
+        "si_label": "PROP",
+        "text": "other agencies or states , nor",
+        "span_id": "article478:2341:2370",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article478",
+        "start": 3374,
+        "end": 3383,
+        "si_label": "PROP",
+        "text": "Hurricane",
+        "span_id": "article478:3374:3383",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article478",
+        "start": 3710,
+        "end": 3785,
+        "si_label": "PROP",
+        "text": "all while citizens in disaster zones waited for lifesaving assistance . This",
+        "span_id": "article478:3710:3785",
+        "tc_label": "Name_Calling,Labeling",
+        "tc_idx": 9
+      },
+      {
+        "article_id": "article478",
+        "start": 3965,
+        "end": 3996,
+        "si_label": "PROP",
+        "text": ", legal and illegal immigration",
+        "span_id": "article478:3965:3996",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      }
+    ]
+  },
+  {
+    "article_id": "article490",
+    "spans": []
+  },
+  {
+    "article_id": "article494",
+    "spans": [
+      {
+        "article_id": "article494",
+        "start": 308,
+        "end": 354,
+        "si_label": "PROP",
+        "text": "Commonwealth , and European countries had ended",
+        "span_id": "article494:308:354",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article494",
+        "start": 1223,
+        "end": 1283,
+        "si_label": "PROP",
+        "text": "by Saudi Arabia , cut exports and production to the countries",
+        "span_id": "article494:1223:1283",
+        "tc_label": "Black-and-White_Fallacy",
+        "tc_idx": 3
+      },
+      {
+        "article_id": "article494",
+        "start": 1763,
+        "end": 1772,
+        "si_label": "PROP",
+        "text": "inflation",
+        "span_id": "article494:1763:1772",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article494",
+        "start": 1972,
+        "end": 1973,
+        "si_label": "PROP",
+        "text": ".",
+        "span_id": "article494:1972:1973",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article494",
+        "start": 1987,
+        "end": 1988,
+        "si_label": "PROP",
+        "text": "5",
+        "span_id": "article494:1987:1988",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article494",
+        "start": 2166,
+        "end": 2183,
+        "si_label": "PROP",
+        "text": "cheap energy , was",
+        "span_id": "article494:2166:2183",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article494",
+        "start": 2688,
+        "end": 2731,
+        "si_label": "PROP",
+        "text": "have generally been stagnant . The repricing",
+        "span_id": "article494:2688:2731",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article494",
+        "start": 3193,
+        "end": 3211,
+        "si_label": "PROP",
+        "text": "did n’t want to do .",
+        "span_id": "article494:3193:3211",
+        "tc_label": "Name_Calling,Labeling",
+        "tc_idx": 9
+      },
+      {
+        "article_id": "article494",
+        "start": 4036,
+        "end": 4046,
+        "si_label": "PROP",
+        "text": "the Syrian",
+        "span_id": "article494:4036:4046",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article494",
+        "start": 4070,
+        "end": 4093,
+        "si_label": "PROP",
+        "text": "invasion of Ukraine can",
+        "span_id": "article494:4070:4093",
+        "tc_label": "Appeal_to_Authority",
+        "tc_idx": 0
+      },
+      {
+        "article_id": "article494",
+        "start": 4261,
+        "end": 4275,
+        "si_label": "PROP",
+        "text": "he told me , as",
+        "span_id": "article494:4261:4275",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article494",
+        "start": 4521,
+        "end": 4534,
+        "si_label": "PROP",
+        "text": "a stabilising",
+        "span_id": "article494:4521:4534",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article494",
+        "start": 4610,
+        "end": 4617,
+        "si_label": "PROP",
+        "text": "pricing",
+        "span_id": "article494:4610:4617",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article494",
+        "start": 4626,
+        "end": 4634,
+        "si_label": "PROP",
+        "text": "trousers",
+        "span_id": "article494:4626:4634",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article494",
+        "start": 4789,
+        "end": 4811,
+        "si_label": "PROP",
+        "text": ". It ’s a labour story .",
+        "span_id": "article494:4789:4811",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article494",
+        "start": 4813,
+        "end": 4831,
+        "si_label": "PROP",
+        "text": "Stylish jeans were",
+        "span_id": "article494:4813:4831",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article494",
+        "start": 5007,
+        "end": 5046,
+        "si_label": "PROP",
+        "text": "pursuing an embargo against Israel . But",
+        "span_id": "article494:5007:5046",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article494",
+        "start": 6188,
+        "end": 6197,
+        "si_label": "PROP",
+        "text": "migrants …",
+        "span_id": "article494:6188:6197",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article494",
+        "start": 7301,
+        "end": 7304,
+        "si_label": "PROP",
+        "text": "n’t",
+        "span_id": "article494:7301:7304",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article494",
+        "start": 7730,
+        "end": 7744,
+        "si_label": "PROP",
+        "text": "on the back of",
+        "span_id": "article494:7730:7744",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      }
+    ]
+  },
+  {
+    "article_id": "article5",
+    "spans": [
+      {
+        "article_id": "article5",
+        "start": 296,
+        "end": 306,
+        "si_label": "PROP",
+        "text": "the states",
+        "span_id": "article5:296:306",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article5",
+        "start": 1157,
+        "end": 1164,
+        "si_label": "PROP",
+        "text": "federal",
+        "span_id": "article5:1157:1164",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article5",
+        "start": 1178,
+        "end": 1217,
+        "si_label": "PROP",
+        "text": "- called sanctuary jurisdictions that do",
+        "span_id": "article5:1178:1217",
+        "tc_label": "Loaded_Language",
+        "tc_idx": 8
+      },
+      {
+        "article_id": "article5",
+        "start": 1256,
+        "end": 1263,
+        "si_label": "PROP",
+        "text": "Customs",
+        "span_id": "article5:1256:1263",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article5",
+        "start": 1276,
+        "end": 1281,
+        "si_label": "PROP",
+        "text": "( Ice )",
+        "span_id": "article5:1276:1281",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article5",
+        "start": 1772,
+        "end": 1775,
+        "si_label": "PROP",
+        "text": "was",
+        "span_id": "article5:1772:1775",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article5",
+        "start": 1813,
+        "end": 1824,
+        "si_label": "PROP",
+        "text": "after Duffy",
+        "span_id": "article5:1813:1824",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article5",
+        "start": 1828,
+        "end": 1852,
+        "si_label": "PROP",
+        "text": "24 April notified states",
+        "span_id": "article5:1828:1852",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      }
+    ]
+  },
+  {
+    "article_id": "article504",
+    "spans": [
+      {
+        "article_id": "article504",
+        "start": 1955,
+        "end": 1962,
+        "si_label": "PROP",
+        "text": ". ( Obed",
+        "span_id": "article504:1955:1962",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article504",
+        "start": 2033,
+        "end": 2042,
+        "si_label": "PROP",
+        "text": "itself in",
+        "span_id": "article504:2033:2042",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article504",
+        "start": 3005,
+        "end": 3018,
+        "si_label": "PROP",
+        "text": "United States",
+        "span_id": "article504:3005:3018",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      }
+    ]
+  },
+  {
+    "article_id": "article506",
+    "spans": [
+      {
+        "article_id": "article506",
+        "start": 872,
+        "end": 911,
+        "si_label": "PROP",
+        "text": "Advertisement Under the 4th Amendment ,",
+        "span_id": "article506:872:911",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article506",
+        "start": 912,
+        "end": 936,
+        "si_label": "PROP",
+        "text": "reasonable suspicion can",
+        "span_id": "article506:912:936",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article506",
+        "start": 1710,
+        "end": 1716,
+        "si_label": "PROP",
+        "text": "Fourth",
+        "span_id": "article506:1710:1716",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article506",
+        "start": 1930,
+        "end": 1934,
+        "si_label": "PROP",
+        "text": "test",
+        "span_id": "article506:1930:1934",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article506",
+        "start": 2174,
+        "end": 2199,
+        "si_label": "PROP",
+        "text": "“ After the district court",
+        "span_id": "article506:2174:2199",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article506",
+        "start": 2355,
+        "end": 2361,
+        "si_label": "PROP",
+        "text": "policy",
+        "span_id": "article506:2355:2361",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article506",
+        "start": 2852,
+        "end": 2854,
+        "si_label": "PROP",
+        "text": "of",
+        "span_id": "article506:2852:2854",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      }
+    ]
+  },
+  {
+    "article_id": "article55",
+    "spans": [
+      {
+        "article_id": "article55",
+        "start": 532,
+        "end": 543,
+        "si_label": "PROP",
+        "text": "been jailed",
+        "span_id": "article55:532:543",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article55",
+        "start": 659,
+        "end": 678,
+        "si_label": "PROP",
+        "text": "waiting the outcome",
+        "span_id": "article55:659:678",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article55",
+        "start": 841,
+        "end": 858,
+        "si_label": "PROP",
+        "text": "drugs money ' at a",
+        "span_id": "article55:841:858",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article55",
+        "start": 1030,
+        "end": 1041,
+        "si_label": "PROP",
+        "text": "he had been",
+        "span_id": "article55:1030:1041",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article55",
+        "start": 1084,
+        "end": 1119,
+        "si_label": "PROP",
+        "text": "people who were trafficking females",
+        "span_id": "article55:1084:1119",
+        "tc_label": "Loaded_Language",
+        "tc_idx": 8
+      },
+      {
+        "article_id": "article55",
+        "start": 1146,
+        "end": 1168,
+        "si_label": "PROP",
+        "text": "Harinderpal Dhami said",
+        "span_id": "article55:1146:1168",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article55",
+        "start": 1241,
+        "end": 1248,
+        "si_label": "PROP",
+        "text": "' scared",
+        "span_id": "article55:1241:1248",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article55",
+        "start": 1530,
+        "end": 1536,
+        "si_label": "PROP",
+        "text": "in the",
+        "span_id": "article55:1530:1536",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article55",
+        "start": 2381,
+        "end": 2399,
+        "si_label": "PROP",
+        "text": "Martin - Sperry said",
+        "span_id": "article55:2381:2399",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article55",
+        "start": 2843,
+        "end": 2896,
+        "si_label": "PROP",
+        "text": "employment ' . ‌ He said : \" You played a significant",
+        "span_id": "article55:2843:2896",
+        "tc_label": "Slogans",
+        "tc_idx": 11
+      },
+      {
+        "article_id": "article55",
+        "start": 2903,
+        "end": 2995,
+        "si_label": "PROP",
+        "text": "You must have had some awareness and understanding of the scale of the operation . \" This was",
+        "span_id": "article55:2903:2995",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article55",
+        "start": 3086,
+        "end": 3109,
+        "si_label": "PROP",
+        "text": "an operational function",
+        "span_id": "article55:3086:3109",
+        "tc_label": "Loaded_Language",
+        "tc_idx": 8
+      },
+      {
+        "article_id": "article55",
+        "start": 3113,
+        "end": 3118,
+        "si_label": "PROP",
+        "text": "Dani ,",
+        "span_id": "article55:3113:3118",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      }
+    ]
+  },
+  {
+    "article_id": "article560",
+    "spans": [
+      {
+        "article_id": "article560",
+        "start": 877,
+        "end": 883,
+        "si_label": "PROP",
+        "text": "seeded",
+        "span_id": "article560:877:883",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article560",
+        "start": 980,
+        "end": 1010,
+        "si_label": "PROP",
+        "text": ", the results of Trump ’s agent",
+        "span_id": "article560:980:1010",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article560",
+        "start": 1059,
+        "end": 1083,
+        "si_label": "PROP",
+        "text": "spell disaster for civil",
+        "span_id": "article560:1059:1083",
+        "tc_label": "Slogans",
+        "tc_idx": 11
+      },
+      {
+        "article_id": "article560",
+        "start": 1667,
+        "end": 1669,
+        "si_label": "PROP",
+        "text": "of",
+        "span_id": "article560:1667:1669",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article560",
+        "start": 2161,
+        "end": 2214,
+        "si_label": "PROP",
+        "text": "Human Rights group sued , forcing the oversight bodies",
+        "span_id": "article560:2161:2214",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article560",
+        "start": 2584,
+        "end": 2586,
+        "si_label": "PROP",
+        "text": "of",
+        "span_id": "article560:2584:2586",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article560",
+        "start": 2626,
+        "end": 2633,
+        "si_label": "PROP",
+        "text": "funding",
+        "span_id": "article560:2626:2633",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article560",
+        "start": 2775,
+        "end": 2778,
+        "si_label": "PROP",
+        "text": "per",
+        "span_id": "article560:2775:2778",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article560",
+        "start": 2825,
+        "end": 2838,
+        "si_label": "PROP",
+        "text": "oversees ICE ,",
+        "span_id": "article560:2825:2838",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article560",
+        "start": 2872,
+        "end": 2880,
+        "si_label": "PROP",
+        "text": "Services",
+        "span_id": "article560:2872:2880",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article560",
+        "start": 3187,
+        "end": 3192,
+        "si_label": "PROP",
+        "text": "doing",
+        "span_id": "article560:3187:3192",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article560",
+        "start": 3246,
+        "end": 3248,
+        "si_label": "PROP",
+        "text": "to",
+        "span_id": "article560:3246:3248",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article560",
+        "start": 3496,
+        "end": 3554,
+        "si_label": "PROP",
+        "text": "to targeting birthright citizenship . It ’s led to a massive",
+        "span_id": "article560:3496:3554",
+        "tc_label": "Slogans",
+        "tc_idx": 11
+      },
+      {
+        "article_id": "article560",
+        "start": 3583,
+        "end": 3665,
+        "si_label": "PROP",
+        "text": "federal government is mostly losing . Advertisement Advertisement ICE is largely",
+        "span_id": "article560:3583:3665",
+        "tc_label": "Slogans",
+        "tc_idx": 11
+      },
+      {
+        "article_id": "article560",
+        "start": 3946,
+        "end": 3951,
+        "si_label": "PROP",
+        "text": "on to",
+        "span_id": "article560:3946:3951",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article560",
+        "start": 4279,
+        "end": 4329,
+        "si_label": "PROP",
+        "text": "disguise while performing their duties . A group of",
+        "span_id": "article560:4279:4329",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article560",
+        "start": 5797,
+        "end": 5812,
+        "si_label": "PROP",
+        "text": "danger and made",
+        "span_id": "article560:5797:5812",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article560",
+        "start": 5835,
+        "end": 6045,
+        "si_label": "PROP",
+        "text": "if there was a death of a migrant in a detention center , it was “ rarely anyone ’s fault , ” said Shuchart , with officers blaming the detention center ’s conditions on inadequate funding . During Trump ’s first term ,",
+        "span_id": "article560:5835:6045",
+        "tc_label": "Appeal_to_Authority",
+        "tc_idx": 0
+      },
+      {
+        "article_id": "article560",
+        "start": 6122,
+        "end": 6168,
+        "si_label": "PROP",
+        "text": "participants , including a CBP supervisor , made",
+        "span_id": "article560:6122:6168",
+        "tc_label": "Loaded_Language",
+        "tc_idx": 8
+      },
+      {
+        "article_id": "article560",
+        "start": 6848,
+        "end": 6988,
+        "si_label": "PROP",
+        "text": "reports of abuse at immigration detention centers surfaced under the Biden administration , problematic family detention tactics were used by",
+        "span_id": "article560:6848:6988",
+        "tc_label": "Appeal_to_Authority",
+        "tc_idx": 0
+      },
+      {
+        "article_id": "article560",
+        "start": 6989,
+        "end": 7024,
+        "si_label": "PROP",
+        "text": "the Obama administration , and Trump",
+        "span_id": "article560:6989:7024",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article560",
+        "start": 7024,
+        "end": 7184,
+        "si_label": "PROP",
+        "text": "’s first administration pursued a notorious zero - tolerance policy that resulted in thousands of parents being deported while their children remained in the U.S.",
+        "span_id": "article560:7024:7184",
+        "tc_label": "Name_Calling,Labeling",
+        "tc_idx": 9
+      },
+      {
+        "article_id": "article560",
+        "start": 7203,
+        "end": 7222,
+        "si_label": "PROP",
+        "text": "no sense whatsoever",
+        "span_id": "article560:7203:7222",
+        "tc_label": "Slogans",
+        "tc_idx": 11
+      }
+    ]
+  },
+  {
+    "article_id": "article604",
+    "spans": [
+      {
+        "article_id": "article604",
+        "start": 562,
+        "end": 565,
+        "si_label": "PROP",
+        "text": "the",
+        "span_id": "article604:562:565",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article604",
+        "start": 1379,
+        "end": 1384,
+        "si_label": "PROP",
+        "text": "ONS ’s",
+        "span_id": "article604:1379:1384",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article604",
+        "start": 2252,
+        "end": 2259,
+        "si_label": "PROP",
+        "text": "Britain",
+        "span_id": "article604:2252:2259",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      }
+    ]
+  },
+  {
+    "article_id": "article64",
+    "spans": [
+      {
+        "article_id": "article64",
+        "start": 0,
+        "end": 5,
+        "si_label": "PROP",
+        "text": "Trump",
+        "span_id": "article64:0:5",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article64",
+        "start": 701,
+        "end": 736,
+        "si_label": "PROP",
+        "text": "have not been previously reported —",
+        "span_id": "article64:701:736",
+        "tc_label": "Appeal_to_fear-prejudice",
+        "tc_idx": 1
+      },
+      {
+        "article_id": "article64",
+        "start": 991,
+        "end": 997,
+        "si_label": "PROP",
+        "text": "asylum",
+        "span_id": "article64:991:997",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article64",
+        "start": 1339,
+        "end": 1368,
+        "si_label": "PROP",
+        "text": "180 days . Generally speaking ,",
+        "span_id": "article64:1339:1368",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article64",
+        "start": 2177,
+        "end": 2190,
+        "si_label": "PROP",
+        "text": "would require",
+        "span_id": "article64:2177:2190",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article64",
+        "start": 2843,
+        "end": 2852,
+        "si_label": "PROP",
+        "text": "integrity",
+        "span_id": "article64:2843:2852",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article64",
+        "start": 2946,
+        "end": 2986,
+        "si_label": "PROP",
+        "text": "changes under consideration by the Trump",
+        "span_id": "article64:2946:2986",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article64",
+        "start": 3943,
+        "end": 3988,
+        "si_label": "PROP",
+        "text": "a magnet for migrants using the asylum system",
+        "span_id": "article64:3943:3988",
+        "tc_label": "Loaded_Language",
+        "tc_idx": 8
+      },
+      {
+        "article_id": "article64",
+        "start": 4494,
+        "end": 4524,
+        "si_label": "PROP",
+        "text": "the U.S. asylum system , giving",
+        "span_id": "article64:4494:4524",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article64",
+        "start": 4632,
+        "end": 4633,
+        "si_label": "PROP",
+        "text": ".",
+        "span_id": "article64:4632:4633",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      }
+    ]
+  },
+  {
+    "article_id": "article67",
+    "spans": [
+      {
+        "article_id": "article67",
+        "start": 683,
+        "end": 686,
+        "si_label": "PROP",
+        "text": "one",
+        "span_id": "article67:683:686",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article67",
+        "start": 2516,
+        "end": 2519,
+        "si_label": "PROP",
+        "text": "its",
+        "span_id": "article67:2516:2519",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article67",
+        "start": 3260,
+        "end": 3314,
+        "si_label": "PROP",
+        "text": "though it 's unclear if anyone knows how many . Paulina",
+        "span_id": "article67:3260:3314",
+        "tc_label": "Appeal_to_fear-prejudice",
+        "tc_idx": 1
+      },
+      {
+        "article_id": "article67",
+        "start": 3321,
+        "end": 3330,
+        "si_label": "PROP",
+        "text": "Perrariz ,",
+        "span_id": "article67:3321:3330",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article67",
+        "start": 3411,
+        "end": 3421,
+        "si_label": "PROP",
+        "text": ", said her",
+        "span_id": "article67:3411:3421",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article67",
+        "start": 3645,
+        "end": 3669,
+        "si_label": "PROP",
+        "text": ", lawyers are unsure how",
+        "span_id": "article67:3645:3669",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article67",
+        "start": 3835,
+        "end": 3842,
+        "si_label": "PROP",
+        "text": "None of",
+        "span_id": "article67:3835:3842",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article67",
+        "start": 4209,
+        "end": 4227,
+        "si_label": "PROP",
+        "text": "nearly nine months",
+        "span_id": "article67:4209:4227",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article67",
+        "start": 4398,
+        "end": 4403,
+        "si_label": "PROP",
+        "text": "Trump",
+        "span_id": "article67:4398:4403",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article67",
+        "start": 4719,
+        "end": 4729,
+        "si_label": "PROP",
+        "text": ", he said .",
+        "span_id": "article67:4719:4729",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article67",
+        "start": 4743,
+        "end": 4800,
+        "si_label": "PROP",
+        "text": "later , they were among the immigrants who were handcuffed",
+        "span_id": "article67:4743:4800",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article67",
+        "start": 4802,
+        "end": 4835,
+        "si_label": "PROP",
+        "text": "shackled and flown to Costa Rica .",
+        "span_id": "article67:4802:4835",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article67",
+        "start": 4947,
+        "end": 5009,
+        "si_label": "PROP",
+        "text": "has tried to accelerate deportations by turning countries like",
+        "span_id": "article67:4947:5009",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article67",
+        "start": 5016,
+        "end": 5190,
+        "si_label": "PROP",
+        "text": "Rica and Panama into “ bridges , ” temporarily detaining deportees while they await return to their countries of origin or third countries . Earlier this year , some 200 migrants",
+        "span_id": "article67:5016:5190",
+        "tc_label": "Black-and-White_Fallacy",
+        "tc_idx": 3
+      },
+      {
+        "article_id": "article67",
+        "start": 5196,
+        "end": 5209,
+        "si_label": "PROP",
+        "text": "deported from",
+        "span_id": "article67:5196:5209",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article67",
+        "start": 5222,
+        "end": 5248,
+        "si_label": "PROP",
+        "text": "Costa Rica and roughly 300",
+        "span_id": "article67:5222:5248",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article67",
+        "start": 5433,
+        "end": 5445,
+        "si_label": "PROP",
+        "text": "roughly one -",
+        "span_id": "article67:5433:5445",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article67",
+        "start": 6021,
+        "end": 6029,
+        "si_label": "PROP",
+        "text": "facility",
+        "span_id": "article67:6021:6029",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article67",
+        "start": 6131,
+        "end": 6172,
+        "si_label": "PROP",
+        "text": "to Russia and has nowhere else to go . He",
+        "span_id": "article67:6131:6172",
+        "tc_label": "Doubt",
+        "tc_idx": 5
+      },
+      {
+        "article_id": "article67",
+        "start": 6288,
+        "end": 6309,
+        "si_label": "PROP",
+        "text": "keep people busy . He",
+        "span_id": "article67:6288:6309",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article67",
+        "start": 6313,
+        "end": 6418,
+        "si_label": "PROP",
+        "text": "not angry at the U.S. He understands the administration wanting to crack down on illegal immigration . But",
+        "span_id": "article67:6313:6418",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article67",
+        "start": 6449,
+        "end": 6482,
+        "si_label": "PROP",
+        "text": ". He followed the rules and ca n’t",
+        "span_id": "article67:6449:6482",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article67",
+        "start": 6494,
+        "end": 6543,
+        "si_label": "PROP",
+        "text": "why he did n’t get a chance to plead his case . He",
+        "span_id": "article67:6494:6543",
+        "tc_label": "Appeal_to_fear-prejudice",
+        "tc_idx": 1
+      },
+      {
+        "article_id": "article67",
+        "start": 6544,
+        "end": 6620,
+        "si_label": "PROP",
+        "text": "fights despair almost constantly , knowing that what he did in Russia brought",
+        "span_id": "article67:6544:6620",
+        "tc_label": "Black-and-White_Fallacy",
+        "tc_idx": 3
+      }
+    ]
+  },
+  {
+    "article_id": "article684",
+    "spans": [
+      {
+        "article_id": "article684",
+        "start": 683,
+        "end": 687,
+        "si_label": "PROP",
+        "text": "onto",
+        "span_id": "article684:683:687",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article684",
+        "start": 707,
+        "end": 713,
+        "si_label": "PROP",
+        "text": "former",
+        "span_id": "article684:707:713",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article684",
+        "start": 2218,
+        "end": 2230,
+        "si_label": "PROP",
+        "text": "have n’t even",
+        "span_id": "article684:2218:2230",
+        "tc_label": "Slogans",
+        "tc_idx": 11
+      },
+      {
+        "article_id": "article684",
+        "start": 2534,
+        "end": 2541,
+        "si_label": "PROP",
+        "text": "one out",
+        "span_id": "article684:2534:2541",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      }
+    ]
+  },
+  {
+    "article_id": "article696",
+    "spans": [
+      {
+        "article_id": "article696",
+        "start": 849,
+        "end": 854,
+        "si_label": "PROP",
+        "text": ". You",
+        "span_id": "article696:849:854",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article696",
+        "start": 2518,
+        "end": 2522,
+        "si_label": "PROP",
+        "text": "must",
+        "span_id": "article696:2518:2522",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article696",
+        "start": 2605,
+        "end": 2637,
+        "si_label": "PROP",
+        "text": "Secretary Robert Jenrick said on",
+        "span_id": "article696:2605:2637",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article696",
+        "start": 2638,
+        "end": 2654,
+        "si_label": "PROP",
+        "text": "Monday ( August 4",
+        "span_id": "article696:2638:2654",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article696",
+        "start": 3375,
+        "end": 3387,
+        "si_label": "PROP",
+        "text": "intelligence",
+        "span_id": "article696:3375:3387",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article696",
+        "start": 3823,
+        "end": 3864,
+        "si_label": "PROP",
+        "text": ", while ruthless criminal gangs flood our",
+        "span_id": "article696:3823:3864",
+        "tc_label": "Name_Calling,Labeling",
+        "tc_idx": 9
+      }
+    ]
+  },
+  {
+    "article_id": "article704",
+    "spans": [
+      {
+        "article_id": "article704",
+        "start": 140,
+        "end": 147,
+        "si_label": "PROP",
+        "text": "city of",
+        "span_id": "article704:140:147",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article704",
+        "start": 1005,
+        "end": 1013,
+        "si_label": "PROP",
+        "text": ") . Hours",
+        "span_id": "article704:1005:1013",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article704",
+        "start": 1036,
+        "end": 1046,
+        "si_label": "PROP",
+        "text": "Tamaulipas",
+        "span_id": "article704:1036:1046",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article704",
+        "start": 1107,
+        "end": 1127,
+        "si_label": "PROP",
+        "text": "that officials tried",
+        "span_id": "article704:1107:1127",
+        "tc_label": "Loaded_Language",
+        "tc_idx": 8
+      },
+      {
+        "article_id": "article704",
+        "start": 1445,
+        "end": 1452,
+        "si_label": "PROP",
+        "text": "federal",
+        "span_id": "article704:1445:1452",
+        "tc_label": "Loaded_Language",
+        "tc_idx": 8
+      }
+    ]
+  },
+  {
+    "article_id": "article707",
+    "spans": [
+      {
+        "article_id": "article707",
+        "start": 2563,
+        "end": 2565,
+        "si_label": "PROP",
+        "text": "in",
+        "span_id": "article707:2563:2565",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article707",
+        "start": 2959,
+        "end": 2990,
+        "si_label": "PROP",
+        "text": "arrested in the sting operation",
+        "span_id": "article707:2959:2990",
+        "tc_label": "Loaded_Language",
+        "tc_idx": 8
+      },
+      {
+        "article_id": "article707",
+        "start": 3225,
+        "end": 3319,
+        "si_label": "PROP",
+        "text": "Sheriff ’s Office , U.S. Department of Homeland Security , U.S. Marshals Service , Florida Highway",
+        "span_id": "article707:3225:3319",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      }
+    ]
+  },
+  {
+    "article_id": "article722",
+    "spans": [
+      {
+        "article_id": "article722",
+        "start": 1097,
+        "end": 1098,
+        "si_label": "PROP",
+        "text": ",",
+        "span_id": "article722:1097:1098",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article722",
+        "start": 1148,
+        "end": 1153,
+        "si_label": "PROP",
+        "text": "acres",
+        "span_id": "article722:1148:1153",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article722",
+        "start": 1281,
+        "end": 1285,
+        "si_label": "PROP",
+        "text": ", 7 %",
+        "span_id": "article722:1281:1285",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article722",
+        "start": 1577,
+        "end": 1579,
+        "si_label": "PROP",
+        "text": ") .",
+        "span_id": "article722:1577:1579",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article722",
+        "start": 1695,
+        "end": 1704,
+        "si_label": "PROP",
+        "text": "workers (",
+        "span_id": "article722:1695:1704",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article722",
+        "start": 1912,
+        "end": 1935,
+        "si_label": "PROP",
+        "text": "is close by . California",
+        "span_id": "article722:1912:1935",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article722",
+        "start": 1940,
+        "end": 1957,
+        "si_label": "PROP",
+        "text": "more of them than",
+        "span_id": "article722:1940:1957",
+        "tc_label": "Slogans",
+        "tc_idx": 11
+      },
+      {
+        "article_id": "article722",
+        "start": 1973,
+        "end": 1988,
+        "si_label": "PROP",
+        "text": ". Estimates are",
+        "span_id": "article722:1973:1988",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article722",
+        "start": 2070,
+        "end": 2079,
+        "si_label": "PROP",
+        "text": ". Florida",
+        "span_id": "article722:2070:2079",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article722",
+        "start": 2182,
+        "end": 2273,
+        "si_label": "PROP",
+        "text": "1.5 % of all farms , half of whom sold $ 1 million or more in product , employ migrant workers .",
+        "span_id": "article722:2182:2273",
+        "tc_label": "Doubt",
+        "tc_idx": 5
+      },
+      {
+        "article_id": "article722",
+        "start": 2307,
+        "end": 2371,
+        "si_label": "PROP",
+        "text": "illegal . California and Florida together account for between 74",
+        "span_id": "article722:2307:2371",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article722",
+        "start": 2988,
+        "end": 2992,
+        "si_label": "PROP",
+        "text": "work",
+        "span_id": "article722:2988:2992",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article722",
+        "start": 3055,
+        "end": 3062,
+        "si_label": "PROP",
+        "text": "workers",
+        "span_id": "article722:3055:3062",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article722",
+        "start": 3316,
+        "end": 3319,
+        "si_label": "PROP",
+        "text": "for",
+        "span_id": "article722:3316:3319",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article722",
+        "start": 3339,
+        "end": 3378,
+        "si_label": "PROP",
+        "text": "employer must then file a petition with",
+        "span_id": "article722:3339:3378",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article722",
+        "start": 3427,
+        "end": 3436,
+        "si_label": "PROP",
+        "text": "the alien",
+        "span_id": "article722:3427:3436",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article722",
+        "start": 3455,
+        "end": 3469,
+        "si_label": "PROP",
+        "text": "companies that",
+        "span_id": "article722:3455:3469",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article722",
+        "start": 3616,
+        "end": 3660,
+        "si_label": "PROP",
+        "text": "otherwise ineligible . The worker can not work",
+        "span_id": "article722:3616:3660",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article722",
+        "start": 3690,
+        "end": 3703,
+        "si_label": "PROP",
+        "text": "petitioner(s )",
+        "span_id": "article722:3690:3703",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article722",
+        "start": 3762,
+        "end": 3786,
+        "si_label": "PROP",
+        "text": "more than three years in",
+        "span_id": "article722:3762:3786",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article722",
+        "start": 3805,
+        "end": 3811,
+        "si_label": "PROP",
+        "text": "worker",
+        "span_id": "article722:3805:3811",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article722",
+        "start": 3924,
+        "end": 3926,
+        "si_label": "PROP",
+        "text": "to",
+        "span_id": "article722:3924:3926",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article722",
+        "start": 3996,
+        "end": 4000,
+        "si_label": "PROP",
+        "text": "part",
+        "span_id": "article722:3996:4000",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article722",
+        "start": 4024,
+        "end": 4027,
+        "si_label": "PROP",
+        "text": "the",
+        "span_id": "article722:4024:4027",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article722",
+        "start": 4093,
+        "end": 4118,
+        "si_label": "PROP",
+        "text": "result in profits greater",
+        "span_id": "article722:4093:4118",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article722",
+        "start": 4188,
+        "end": 4192,
+        "si_label": "PROP",
+        "text": "with",
+        "span_id": "article722:4188:4192",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article722",
+        "start": 4310,
+        "end": 4316,
+        "si_label": "PROP",
+        "text": "erodes",
+        "span_id": "article722:4310:4316",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article722",
+        "start": 4943,
+        "end": 4987,
+        "si_label": "PROP",
+        "text": "employers can bring their working conditions",
+        "span_id": "article722:4943:4987",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article722",
+        "start": 4994,
+        "end": 4995,
+        "si_label": "PROP",
+        "text": ",",
+        "span_id": "article722:4994:4995",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article722",
+        "start": 5305,
+        "end": 5316,
+        "si_label": "PROP",
+        "text": "that depend",
+        "span_id": "article722:5305:5316",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article722",
+        "start": 5700,
+        "end": 5705,
+        "si_label": "PROP",
+        "text": "raise",
+        "span_id": "article722:5700:5705",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article722",
+        "start": 6512,
+        "end": 6526,
+        "si_label": "PROP",
+        "text": "public servant",
+        "span_id": "article722:6512:6526",
+        "tc_label": "Loaded_Language",
+        "tc_idx": 8
+      }
+    ]
+  },
+  {
+    "article_id": "article725",
+    "spans": [
+      {
+        "article_id": "article725",
+        "start": 276,
+        "end": 277,
+        "si_label": "PROP",
+        "text": "-",
+        "span_id": "article725:276:277",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article725",
+        "start": 461,
+        "end": 470,
+        "si_label": "PROP",
+        "text": "Trump and",
+        "span_id": "article725:461:470",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article725",
+        "start": 592,
+        "end": 620,
+        "si_label": "PROP",
+        "text": "in assaults against them and",
+        "span_id": "article725:592:620",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article725",
+        "start": 621,
+        "end": 638,
+        "si_label": "PROP",
+        "text": "yet they continue",
+        "span_id": "article725:621:638",
+        "tc_label": "Appeal_to_fear-prejudice",
+        "tc_idx": 1
+      },
+      {
+        "article_id": "article725",
+        "start": 657,
+        "end": 670,
+        "si_label": "PROP",
+        "text": "criminals and",
+        "span_id": "article725:657:670",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article725",
+        "start": 725,
+        "end": 802,
+        "si_label": "PROP",
+        "text": "Homeland Security ’s Tricia McLaughlin said in a statement : We will not allow",
+        "span_id": "article725:725:802",
+        "tc_label": "Appeal_to_Authority",
+        "tc_idx": 0
+      },
+      {
+        "article_id": "article725",
+        "start": 813,
+        "end": 899,
+        "si_label": "PROP",
+        "text": "politicians , activist hacks , or rioters to stand in our way of protecting the American",
+        "span_id": "article725:813:899",
+        "tc_label": "Flag-Waving",
+        "tc_idx": 7
+      },
+      {
+        "article_id": "article725",
+        "start": 900,
+        "end": 1098,
+        "si_label": "PROP",
+        "text": "people . Our message is clear : criminal illegal aliens are not welcome in the United States . [ Emphasis added ] In addition , ICE agents arrested 34-year - old illegal alien Luis Alberto Leonardo Cortes -",
+        "span_id": "article725:900:1098",
+        "tc_label": "Appeal_to_Authority",
+        "tc_idx": 0
+      },
+      {
+        "article_id": "article725",
+        "start": 1179,
+        "end": 1187,
+        "si_label": "PROP",
+        "text": "has been",
+        "span_id": "article725:1179:1187",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article725",
+        "start": 1212,
+        "end": 1232,
+        "si_label": "PROP",
+        "text": "crimes in the United",
+        "span_id": "article725:1212:1232",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article725",
+        "start": 1691,
+        "end": 1697,
+        "si_label": "PROP",
+        "text": "- Ortiz",
+        "span_id": "article725:1691:1697",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article725",
+        "start": 1821,
+        "end": 1855,
+        "si_label": "PROP",
+        "text": "Email him at jbinder@breitbart.com",
+        "span_id": "article725:1821:1855",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article725",
+        "start": 1864,
+        "end": 1884,
+        "si_label": "PROP",
+        "text": "him on Twitter here .",
+        "span_id": "article725:1864:1884",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      }
+    ]
+  },
+  {
+    "article_id": "article726",
+    "spans": [
+      {
+        "article_id": "article726",
+        "start": 266,
+        "end": 270,
+        "si_label": "PROP",
+        "text": "It ’s",
+        "span_id": "article726:266:270",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article726",
+        "start": 1056,
+        "end": 1064,
+        "si_label": "PROP",
+        "text": "labor in",
+        "span_id": "article726:1056:1064",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article726",
+        "start": 1262,
+        "end": 1266,
+        "si_label": "PROP",
+        "text": "more",
+        "span_id": "article726:1262:1266",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article726",
+        "start": 1327,
+        "end": 1355,
+        "si_label": "PROP",
+        "text": "workplace safety regulations",
+        "span_id": "article726:1327:1355",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article726",
+        "start": 1612,
+        "end": 1695,
+        "si_label": "PROP",
+        "text": ", white , female liberals ) encourage violence against ICE agents , they complain that",
+        "span_id": "article726:1612:1695",
+        "tc_label": "Name_Calling,Labeling",
+        "tc_idx": 9
+      },
+      {
+        "article_id": "article726",
+        "start": 1809,
+        "end": 1916,
+        "si_label": "PROP",
+        "text": ", taking selfies , chugging wine , complaining to the manager , or smoking ( slightly more expensive ) marijuana",
+        "span_id": "article726:1809:1916",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article726",
+        "start": 1918,
+        "end": 1990,
+        "si_label": "PROP",
+        "text": "they call President Trump “ evil ” for disrupting the tranquility of their",
+        "span_id": "article726:1918:1990",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article726",
+        "start": 2012,
+        "end": 2022,
+        "si_label": "PROP",
+        "text": "and modern",
+        "span_id": "article726:2012:2022",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article726",
+        "start": 2117,
+        "end": 2176,
+        "si_label": "PROP",
+        "text": "on illegal alien labor . The most serious costs , though , are",
+        "span_id": "article726:2117:2176",
+        "tc_label": "Slogans",
+        "tc_idx": 11
+      },
+      {
+        "article_id": "article726",
+        "start": 2251,
+        "end": 2273,
+        "si_label": "PROP",
+        "text": "to hire illegal aliens",
+        "span_id": "article726:2251:2273",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article726",
+        "start": 2324,
+        "end": 2326,
+        "si_label": "PROP",
+        "text": "on",
+        "span_id": "article726:2324:2326",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article726",
+        "start": 2426,
+        "end": 2436,
+        "si_label": "PROP",
+        "text": "demand for",
+        "span_id": "article726:2426:2436",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article726",
+        "start": 2472,
+        "end": 2475,
+        "si_label": "PROP",
+        "text": "the",
+        "span_id": "article726:2472:2475",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article726",
+        "start": 2482,
+        "end": 2512,
+        "si_label": "PROP",
+        "text": "? It becomes more expensive to",
+        "span_id": "article726:2482:2512",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article726",
+        "start": 2545,
+        "end": 2581,
+        "si_label": "PROP",
+        "text": "rent rises . While wealthier families",
+        "span_id": "article726:2545:2581",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article726",
+        "start": 2588,
+        "end": 2663,
+        "si_label": "PROP",
+        "text": "send their children to private schools , poor and middle - class families that",
+        "span_id": "article726:2588:2663",
+        "tc_label": "Loaded_Language",
+        "tc_idx": 8
+      },
+      {
+        "article_id": "article726",
+        "start": 2671,
+        "end": 2770,
+        "si_label": "PROP",
+        "text": "upon public schools see an influx of foreign children and increased class size . And while wealthier",
+        "span_id": "article726:2671:2770",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article726",
+        "start": 2780,
+        "end": 2790,
+        "si_label": "PROP",
+        "text": "might have",
+        "span_id": "article726:2780:2790",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article726",
+        "start": 3083,
+        "end": 3090,
+        "si_label": "PROP",
+        "text": "- called",
+        "span_id": "article726:3083:3090",
+        "tc_label": "Loaded_Language",
+        "tc_idx": 8
+      },
+      {
+        "article_id": "article726",
+        "start": 3204,
+        "end": 3252,
+        "si_label": "PROP",
+        "text": "provide illegal aliens with financial incentives",
+        "span_id": "article726:3204:3252",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article726",
+        "start": 3314,
+        "end": 3341,
+        "si_label": "PROP",
+        "text": "forms of “ free ” cell phones",
+        "span_id": "article726:3314:3341",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article726",
+        "start": 3665,
+        "end": 3690,
+        "si_label": "PROP",
+        "text": ", and other public spaces",
+        "span_id": "article726:3665:3690",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article726",
+        "start": 3883,
+        "end": 3911,
+        "si_label": "PROP",
+        "text": "get by . California governor",
+        "span_id": "article726:3883:3911",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article726",
+        "start": 3956,
+        "end": 3987,
+        "si_label": "PROP",
+        "text": "supported army of Antifa street",
+        "span_id": "article726:3956:3987",
+        "tc_label": "Loaded_Language",
+        "tc_idx": 8
+      },
+      {
+        "article_id": "article726",
+        "start": 3994,
+        "end": 4034,
+        "si_label": "PROP",
+        "text": "pretend to fight avaricious billionaires",
+        "span_id": "article726:3994:4034",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article726",
+        "start": 4109,
+        "end": 4155,
+        "si_label": "PROP",
+        "text": "flush with slave labor and kick poor Americans",
+        "span_id": "article726:4109:4155",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article726",
+        "start": 4220,
+        "end": 4239,
+        "si_label": "PROP",
+        "text": "for foreigners than",
+        "span_id": "article726:4220:4239",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article726",
+        "start": 4415,
+        "end": 4448,
+        "si_label": "PROP",
+        "text": "no business holding public office",
+        "span_id": "article726:4415:4448",
+        "tc_label": "Appeal_to_fear-prejudice",
+        "tc_idx": 1
+      },
+      {
+        "article_id": "article726",
+        "start": 4472,
+        "end": 4485,
+        "si_label": "PROP",
+        "text": "But do n’t get",
+        "span_id": "article726:4472:4485",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article726",
+        "start": 4536,
+        "end": 4589,
+        "si_label": "PROP",
+        "text": "and abet is big business . Not only does illegal alien",
+        "span_id": "article726:4536:4589",
+        "tc_label": "Slogans",
+        "tc_idx": 11
+      },
+      {
+        "article_id": "article726",
+        "start": 4653,
+        "end": 4661,
+        "si_label": "PROP",
+        "text": "Democrat",
+        "span_id": "article726:4653:4661",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article726",
+        "start": 4709,
+        "end": 4714,
+        "si_label": "PROP",
+        "text": ", but",
+        "span_id": "article726:4709:4714",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article726",
+        "start": 4777,
+        "end": 4793,
+        "si_label": "PROP",
+        "text": "financial bottom",
+        "span_id": "article726:4777:4793",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article726",
+        "start": 5225,
+        "end": 5226,
+        "si_label": "PROP",
+        "text": "a",
+        "span_id": "article726:5225:5226",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article726",
+        "start": 5243,
+        "end": 5256,
+        "si_label": "PROP",
+        "text": "were actually",
+        "span_id": "article726:5243:5256",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article726",
+        "start": 5257,
+        "end": 5272,
+        "si_label": "PROP",
+        "text": "self - sufficient",
+        "span_id": "article726:5257:5272",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article726",
+        "start": 5589,
+        "end": 5599,
+        "si_label": "PROP",
+        "text": "effects of",
+        "span_id": "article726:5589:5599",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article726",
+        "start": 5872,
+        "end": 6094,
+        "si_label": "PROP",
+        "text": "by expanding their jurisdiction and obligations . Requests for federal funds rise as city populations rise . When a metropolitan police force is responsible for more residents , it requires more officers and resources . When a",
+        "span_id": "article726:5872:6094",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article726",
+        "start": 6130,
+        "end": 6211,
+        "si_label": "PROP",
+        "text": "more students , it requires more money and teachers . Population influx drives both",
+        "span_id": "article726:6130:6211",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article726",
+        "start": 6212,
+        "end": 6319,
+        "si_label": "PROP",
+        "text": "taxpayer dollars and new government employees into an area , and , consequently , government executives become",
+        "span_id": "article726:6212:6319",
+        "tc_label": "Black-and-White_Fallacy",
+        "tc_idx": 3
+      },
+      {
+        "article_id": "article726",
+        "start": 7054,
+        "end": 7061,
+        "si_label": "PROP",
+        "text": "to lose",
+        "span_id": "article726:7054:7061",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article726",
+        "start": 7430,
+        "end": 7438,
+        "si_label": "PROP",
+        "text": "shoot up",
+        "span_id": "article726:7430:7438",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article726",
+        "start": 7523,
+        "end": 7637,
+        "si_label": "PROP",
+        "text": "If violent crime rates rise , then law enforcement agencies require bigger budgets . If illegal alien children ca n’t",
+        "span_id": "article726:7523:7637",
+        "tc_label": "Doubt",
+        "tc_idx": 5
+      },
+      {
+        "article_id": "article726",
+        "start": 7638,
+        "end": 7672,
+        "si_label": "PROP",
+        "text": "speak English , then new taxes must",
+        "span_id": "article726:7638:7672",
+        "tc_label": "Doubt",
+        "tc_idx": 5
+      },
+      {
+        "article_id": "article726",
+        "start": 7673,
+        "end": 7716,
+        "si_label": "PROP",
+        "text": "be imposed to provide for the educations of",
+        "span_id": "article726:7673:7716",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article726",
+        "start": 7717,
+        "end": 7734,
+        "si_label": "PROP",
+        "text": "foreign students .",
+        "span_id": "article726:7717:7734",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article726",
+        "start": 7839,
+        "end": 7929,
+        "si_label": "PROP",
+        "text": "then , that Democrat politicians will continue to cry fake tears every time President Trump",
+        "span_id": "article726:7839:7929",
+        "tc_label": "Appeal_to_fear-prejudice",
+        "tc_idx": 1
+      },
+      {
+        "article_id": "article726",
+        "start": 7932,
+        "end": 7977,
+        "si_label": "PROP",
+        "text": "immigration agents disrupt exploitative child",
+        "span_id": "article726:7932:7977",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article726",
+        "start": 7984,
+        "end": 8028,
+        "si_label": "PROP",
+        "text": "operations in California ’s marijuana fields .",
+        "span_id": "article726:7984:8028",
+        "tc_label": "Loaded_Language",
+        "tc_idx": 8
+      },
+      {
+        "article_id": "article726",
+        "start": 8034,
+        "end": 8049,
+        "si_label": "PROP",
+        "text": "as it should be",
+        "span_id": "article726:8034:8049",
+        "tc_label": "Whataboutism,Straw_Men,Red_Herring",
+        "tc_idx": 13
+      },
+      {
+        "article_id": "article726",
+        "start": 8229,
+        "end": 8283,
+        "si_label": "PROP",
+        "text": "manure of Big Government . Decades of open borders have",
+        "span_id": "article726:8229:8283",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      }
+    ]
+  },
+  {
+    "article_id": "article742",
+    "spans": [
+      {
+        "article_id": "article742",
+        "start": 207,
+        "end": 211,
+        "si_label": "PROP",
+        "text": "this",
+        "span_id": "article742:207:211",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article742",
+        "start": 388,
+        "end": 461,
+        "si_label": "PROP",
+        "text": "response , Tyrus said , I have a problem with this , and maybe this is just",
+        "span_id": "article742:388:461",
+        "tc_label": "Appeal_to_fear-prejudice",
+        "tc_idx": 1
+      },
+      {
+        "article_id": "article742",
+        "start": 648,
+        "end": 650,
+        "si_label": "PROP",
+        "text": "go",
+        "span_id": "article742:648:650",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article742",
+        "start": 741,
+        "end": 751,
+        "si_label": "PROP",
+        "text": "that makes",
+        "span_id": "article742:741:751",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article742",
+        "start": 774,
+        "end": 784,
+        "si_label": "PROP",
+        "text": "how random",
+        "span_id": "article742:774:784",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article742",
+        "start": 1041,
+        "end": 1048,
+        "si_label": "PROP",
+        "text": "through",
+        "span_id": "article742:1041:1048",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article742",
+        "start": 1137,
+        "end": 1141,
+        "si_label": "PROP",
+        "text": "that",
+        "span_id": "article742:1137:1141",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article742",
+        "start": 1252,
+        "end": 1255,
+        "si_label": "PROP",
+        "text": "any",
+        "span_id": "article742:1252:1255",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article742",
+        "start": 1363,
+        "end": 1366,
+        "si_label": "PROP",
+        "text": "and",
+        "span_id": "article742:1363:1366",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article742",
+        "start": 1703,
+        "end": 1708,
+        "si_label": "PROP",
+        "text": "these",
+        "span_id": "article742:1703:1708",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article742",
+        "start": 1731,
+        "end": 1748,
+        "si_label": "PROP",
+        "text": "Eric Swalwell , ( D",
+        "span_id": "article742:1731:1748",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article742",
+        "start": 1749,
+        "end": 1848,
+        "si_label": "PROP",
+        "text": "CA ) , infamous for having an affair with a Chinese spy , accused ICE immigration enforcement officers",
+        "span_id": "article742:1749:1848",
+        "tc_label": "Name_Calling,Labeling",
+        "tc_idx": 9
+      },
+      {
+        "article_id": "article742",
+        "start": 2227,
+        "end": 2270,
+        "si_label": "PROP",
+        "text": "700 % increased . And we are not even talking",
+        "span_id": "article742:2227:2270",
+        "tc_label": "Slogans",
+        "tc_idx": 11
+      },
+      {
+        "article_id": "article742",
+        "start": 2344,
+        "end": 2345,
+        "si_label": "PROP",
+        "text": ",",
+        "span_id": "article742:2344:2345",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article742",
+        "start": 3891,
+        "end": 3898,
+        "si_label": "PROP",
+        "text": "to back",
+        "span_id": "article742:3891:3898",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article742",
+        "start": 4725,
+        "end": 4747,
+        "si_label": "PROP",
+        "text": ", probably exclusively",
+        "span_id": "article742:4725:4747",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article742",
+        "start": 4910,
+        "end": 4920,
+        "si_label": "PROP",
+        "text": "than masks",
+        "span_id": "article742:4910:4920",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article742",
+        "start": 4951,
+        "end": 4952,
+        "si_label": "PROP",
+        "text": ".",
+        "span_id": "article742:4951:4952",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article742",
+        "start": 5043,
+        "end": 5050,
+        "si_label": "PROP",
+        "text": "mask on",
+        "span_id": "article742:5043:5050",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article742",
+        "start": 5330,
+        "end": 5334,
+        "si_label": "PROP",
+        "text": "very",
+        "span_id": "article742:5330:5334",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article742",
+        "start": 5376,
+        "end": 5377,
+        "si_label": "PROP",
+        "text": ".",
+        "span_id": "article742:5376:5377",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article742",
+        "start": 5616,
+        "end": 5622,
+        "si_label": "PROP",
+        "text": "Border",
+        "span_id": "article742:5616:5622",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article742",
+        "start": 5676,
+        "end": 5707,
+        "si_label": "PROP",
+        "text": "activity against our government",
+        "span_id": "article742:5676:5707",
+        "tc_label": "Flag-Waving",
+        "tc_idx": 7
+      },
+      {
+        "article_id": "article742",
+        "start": 5714,
+        "end": 5732,
+        "si_label": "PROP",
+        "text": "enforcement agents",
+        "span_id": "article742:5714:5732",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      }
+    ]
+  },
+  {
+    "article_id": "article744",
+    "spans": [
+      {
+        "article_id": "article744",
+        "start": 321,
+        "end": 399,
+        "si_label": "PROP",
+        "text": "levels : It incentivizes further hostage - taking by Venezuela , it returns people",
+        "span_id": "article744:321:399",
+        "tc_label": "Black-and-White_Fallacy",
+        "tc_idx": 3
+      },
+      {
+        "article_id": "article744",
+        "start": 404,
+        "end": 529,
+        "si_label": "PROP",
+        "text": "fled oppression back to the very same regime that oppressed them , and it certainly does not stop the administration 's illegal",
+        "span_id": "article744:404:529",
+        "tc_label": "Repetition",
+        "tc_idx": 10
+      },
+      {
+        "article_id": "article744",
+        "start": 599,
+        "end": 604,
+        "si_label": "PROP",
+        "text": "( e.g.",
+        "span_id": "article744:599:604",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article744",
+        "start": 854,
+        "end": 862,
+        "si_label": "PROP",
+        "text": "actually",
+        "span_id": "article744:854:862",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article744",
+        "start": 978,
+        "end": 982,
+        "si_label": "PROP",
+        "text": "to a",
+        "span_id": "article744:978:982",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article744",
+        "start": 1143,
+        "end": 1157,
+        "si_label": "PROP",
+        "text": "being forcibly",
+        "span_id": "article744:1143:1157",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article744",
+        "start": 1167,
+        "end": 1169,
+        "si_label": "PROP",
+        "text": "to",
+        "span_id": "article744:1167:1169",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article744",
+        "start": 1364,
+        "end": 1417,
+        "si_label": "PROP",
+        "text": "Some are actually dissidents and regime opponents who",
+        "span_id": "article744:1364:1417",
+        "tc_label": "Name_Calling,Labeling",
+        "tc_idx": 9
+      },
+      {
+        "article_id": "article744",
+        "start": 2094,
+        "end": 2098,
+        "si_label": "PROP",
+        "text": "this",
+        "span_id": "article744:2094:2098",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article744",
+        "start": 2234,
+        "end": 2305,
+        "si_label": "PROP",
+        "text": "! It 's a valid point . But not nearly enough to justify this sordid deal",
+        "span_id": "article744:2234:2305",
+        "tc_label": "Appeal_to_fear-prejudice",
+        "tc_idx": 1
+      },
+      {
+        "article_id": "article744",
+        "start": 3008,
+        "end": 3029,
+        "si_label": "PROP",
+        "text": "peacetime deportation",
+        "span_id": "article744:3008:3029",
+        "tc_label": "Loaded_Language",
+        "tc_idx": 8
+      },
+      {
+        "article_id": "article744",
+        "start": 3393,
+        "end": 3396,
+        "si_label": "PROP",
+        "text": "See",
+        "span_id": "article744:3393:3396",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article744",
+        "start": 3525,
+        "end": 3547,
+        "si_label": "PROP",
+        "text": "only in the event of a",
+        "span_id": "article744:3525:3547",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      }
+    ]
+  },
+  {
+    "article_id": "article747",
+    "spans": [
+      {
+        "article_id": "article747",
+        "start": 558,
+        "end": 569,
+        "si_label": "PROP",
+        "text": ", some were",
+        "span_id": "article747:558:569",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article747",
+        "start": 589,
+        "end": 600,
+        "si_label": "PROP",
+        "text": "bogus CBP-1",
+        "span_id": "article747:589:600",
+        "tc_label": "Loaded_Language",
+        "tc_idx": 8
+      },
+      {
+        "article_id": "article747",
+        "start": 1797,
+        "end": 1798,
+        "si_label": "PROP",
+        "text": ".",
+        "span_id": "article747:1797:1798",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article747",
+        "start": 1844,
+        "end": 1855,
+        "si_label": "PROP",
+        "text": "routine and",
+        "span_id": "article747:1844:1855",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article747",
+        "start": 1866,
+        "end": 1878,
+        "si_label": "PROP",
+        "text": "medical care",
+        "span_id": "article747:1866:1878",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article747",
+        "start": 2126,
+        "end": 2138,
+        "si_label": "PROP",
+        "text": "We all might",
+        "span_id": "article747:2126:2138",
+        "tc_label": "Slogans",
+        "tc_idx": 11
+      },
+      {
+        "article_id": "article747",
+        "start": 2368,
+        "end": 2377,
+        "si_label": "PROP",
+        "text": "misplaced",
+        "span_id": "article747:2368:2377",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article747",
+        "start": 2739,
+        "end": 2740,
+        "si_label": "PROP",
+        "text": ")",
+        "span_id": "article747:2739:2740",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article747",
+        "start": 4816,
+        "end": 4828,
+        "si_label": "PROP",
+        "text": "system ( e.g.",
+        "span_id": "article747:4816:4828",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article747",
+        "start": 4830,
+        "end": 4835,
+        "si_label": "PROP",
+        "text": "their",
+        "span_id": "article747:4830:4835",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article747",
+        "start": 4994,
+        "end": 5015,
+        "si_label": "PROP",
+        "text": "fraudulent identities",
+        "span_id": "article747:4994:5015",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article747",
+        "start": 5259,
+        "end": 5279,
+        "si_label": "PROP",
+        "text": "charge ineligibility",
+        "span_id": "article747:5259:5279",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article747",
+        "start": 5685,
+        "end": 5749,
+        "si_label": "PROP",
+        "text": "will take an act of Congress , something they need to get started",
+        "span_id": "article747:5685:5749",
+        "tc_label": "Black-and-White_Fallacy",
+        "tc_idx": 3
+      },
+      {
+        "article_id": "article747",
+        "start": 5764,
+        "end": 5844,
+        "si_label": "PROP",
+        "text": ". It can be a limited immigration bill , speeding up processing for those waiting",
+        "span_id": "article747:5764:5844",
+        "tc_label": "Doubt",
+        "tc_idx": 5
+      }
+    ]
+  },
+  {
+    "article_id": "article754",
+    "spans": [
+      {
+        "article_id": "article754",
+        "start": 10,
+        "end": 18,
+        "si_label": "PROP",
+        "text": "'s order",
+        "span_id": "article754:10:18",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article754",
+        "start": 19,
+        "end": 34,
+        "si_label": "PROP",
+        "text": "by Judge Thomas",
+        "span_id": "article754:19:34",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article754",
+        "start": 443,
+        "end": 444,
+        "si_label": "PROP",
+        "text": "a",
+        "span_id": "article754:443:444",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      }
+    ]
+  },
+  {
+    "article_id": "article89",
+    "spans": [
+      {
+        "article_id": "article89",
+        "start": 152,
+        "end": 163,
+        "si_label": "PROP",
+        "text": "seized four",
+        "span_id": "article89:152:163",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article89",
+        "start": 230,
+        "end": 251,
+        "si_label": "PROP",
+        "text": "members of the public",
+        "span_id": "article89:230:251",
+        "tc_label": "Loaded_Language",
+        "tc_idx": 8
+      },
+      {
+        "article_id": "article89",
+        "start": 342,
+        "end": 347,
+        "si_label": "PROP",
+        "text": "after",
+        "span_id": "article89:342:347",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article89",
+        "start": 419,
+        "end": 467,
+        "si_label": "PROP",
+        "text": "and 40 , were taken into custody when West Mercia",
+        "span_id": "article89:419:467",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article89",
+        "start": 547,
+        "end": 554,
+        "si_label": "PROP",
+        "text": "27 ) . ‌",
+        "span_id": "article89:547:554",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article89",
+        "start": 935,
+        "end": 942,
+        "si_label": "PROP",
+        "text": "scooter",
+        "span_id": "article89:935:942",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article89",
+        "start": 992,
+        "end": 1052,
+        "si_label": "PROP",
+        "text": "Although e - scooters are available to buy , they are currently",
+        "span_id": "article89:992:1052",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article89",
+        "start": 2067,
+        "end": 2071,
+        "si_label": "PROP",
+        "text": "down",
+        "span_id": "article89:2067:2071",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article89",
+        "start": 2177,
+        "end": 2184,
+        "si_label": "PROP",
+        "text": "Article",
+        "span_id": "article89:2177:2184",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      }
+    ]
+  },
+  {
+    "article_id": "article9",
+    "spans": [
+      {
+        "article_id": "article9",
+        "start": 59,
+        "end": 61,
+        "si_label": "PROP",
+        "text": "in",
+        "span_id": "article9:59:61",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      },
+      {
+        "article_id": "article9",
+        "start": 2589,
+        "end": 2632,
+        "si_label": "PROP",
+        "text": "trying to secure legal stay in the country ,",
+        "span_id": "article9:2589:2632",
+        "tc_label": "Exaggeration,Minimisation",
+        "tc_idx": 6
+      },
+      {
+        "article_id": "article9",
+        "start": 2695,
+        "end": 2763,
+        "si_label": "PROP",
+        "text": "as an order of supervision . Carol ’s most recent order of supervision",
+        "span_id": "article9:2695:2763",
+        "tc_label": "Loaded_Language",
+        "tc_idx": 8
+      },
+      {
+        "article_id": "article9",
+        "start": 3086,
+        "end": 3114,
+        "si_label": "PROP",
+        "text": "decision on her deportation .",
+        "span_id": "article9:3086:3114",
+        "tc_label": "Bandwagon,Reductio_ad_hitlerum",
+        "tc_idx": 2
+      }
+    ]
+  },
+  {
+    "article_id": "article92",
+    "spans": []
+  },
+  {
+    "article_id": "article99",
+    "spans": []
+  }
+]

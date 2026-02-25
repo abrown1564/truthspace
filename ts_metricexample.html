@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TruthSpace Article Analysis</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Chart.js for summary pie -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+  <style>
+    .logo-font { font-family: 'Orbitron', sans-serif; letter-spacing: 0.05em; }
+    .genz-mode .genz-hidden { display: block; }
+    .genz-mode .default-shown { display: none; }
+    .genz-hidden { display: none; }
+    .metric-label { font-weight: 600; color: #93c5fd; }
+    .toggle-section { cursor: pointer; }
+
+    .tech-chip { display:inline-block; padding:0.15rem 0.5rem; border-radius:9999px; background:#1f2937; border:1px solid #374151; font-size:0.85rem; }
+    .span-box { background:#0b1220; border:1px solid #1f2a44; }
+    .span-text { background:#0f172a; }
+
+    /* compact chart layout */
+    #summarySection .chart-wrap { max-width: 440px; margin: 0 auto; }
+    #propChart { height: auto !important; width: 100% !important; }
+
+    /* key panel */
+    #propKey { max-height: 360px; overflow: auto; }
+    #propKey li { margin-bottom: 0.5rem; }
+    #propKey .k-label { font-weight: 600; color: #e5e7eb; }
+    #propKey .k-desc { color: #9ca3af; }
+
+    /* ===== Tooltips (accessible, no external lib) ===== */
+    .ts-tip { position: relative; display: inline-block; }
+    .ts-tip-btn {
+      display:inline-flex; align-items:center; justify-content:center;
+      width: 1.15rem; height: 1.15rem; border-radius: 9999px;
+      background: #1f2937; border: 1px solid #374151; color: #c7d2fe;
+      font-size: 0.75rem; line-height: 1; margin-left: 0.375rem;
+      cursor: pointer;
+    }
+    .ts-tip-btn:focus { outline: 2px solid #60a5fa; outline-offset: 2px; }
+    .ts-tip-content {
+      position: absolute; z-index: 50; left: 0; top: calc(100% + 0.25rem);
+      min-width: 16rem; max-width: 22rem;
+      background: #0b1220; color: #e5e7eb; border: 1px solid #1f2a44;
+      border-radius: 0.5rem; padding: 0.5rem 0.75rem;
+      box-shadow: 0 8px 24px rgba(0,0,0,.45);
+      font-size: 0.85rem; line-height: 1.25rem;
+      opacity: 0; transform: translateY(-4px);
+      transition: opacity .12s ease, transform .12s ease;
+      pointer-events: none;
+    }
+    .ts-tip:hover .ts-tip-content,
+    .ts-tip:focus-within .ts-tip-content {
+      opacity: 1; transform: translateY(0); pointer-events: auto;
+    }
+    .ts-tip-content .k { color: #93c5fd; }
+    .ts-tip-content code { background:#0f172a; padding:0 .25rem; border-radius:.25rem; }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-gray-900 via-blue-900 to-black text-white min-h-screen p-6">
+  <!-- Gen Z toggle + Researcher toggle -->
+  <div class="absolute top-6 right-6 flex flex-col gap-2 items-end">
+    <button onclick="toggleGenZ()" id="toggleBtn"
+            class="bg-pink-600 hover:bg-pink-500 text-sm text-white px-4 py-2 rounded-full shadow-lg">
+      Switch to Gen Z Mode
+    </button>
+    <button id="toggleResearcher"
+            class="bg-gray-700 hover:bg-gray-600 text-sm text-white px-4 py-2 rounded-full shadow-lg"
+            aria-pressed="false">
+      Researcher Mode: Off
+    </button>
+    <span class="text-xs text-gray-400 text-right">Reader View = summary chart · Researcher Mode = raw spans</span>
+  </div>
+
+  <!-- Header -->
+  <header class="text-center mb-12">
+    <h1 class="text-4xl sm:text-5xl font-bold text-blue-400 logo-font tracking-wider">TruthSpace</h1>
+    <h2 class="mt-4 text-xl sm:text-2xl text-gray-300 default-shown">Article Intelligence Snapshot</h2>
+    <h2 class="mt-4 text-xl sm:text-2xl text-pink-300 font-bold genz-hidden">🧠 Truth Drop</h2>
+    <p id="articleIdLine" class="mt-2 text-gray-400">Loading article ID...</p>
+  </header>
+
+  <!-- Content -->
+  <main class="w-full px-4 sm:px-8 lg:px-16 space-y-12" id="analysisContent">
+    <p class="text-gray-300">Loading article data...</p>
+  </main>
+
+  <footer class="text-center mt-20 text-sm text-gray-500">
+    <p>TruthSpace Prototype — Mapping influence with clarity</p>
+  </footer>
+
+  <script>
+    // Gen Z toggle
+    let genz = false;
+    function toggleGenZ() {
+      document.body.classList.toggle('genz-mode');
+      genz = !genz;
+      document.getElementById("toggleBtn").textContent =
+        genz ? "Switch to Classic Mode" : "Switch to Gen Z Mode";
+    }
+
+    // --- SemEval Task 11 (TC) technique definitions (for span cards) ---
+    const TECH_DESC = {
+      "Loaded_Language": "Uses emotionally charged words to influence feelings rather than reason.",
+      "Name_Calling,Labeling": "Attaches a negative label to a person/group/idea to discredit it without argument.",
+      "Repetition": "Repeats a message or phrase so it sticks and feels true through familiarity.",
+      "Exaggeration,Minimisation": "Overstates benefits/harms or downplays them to skew perception.",
+      "Doubt": "Plants uncertainty or suspicion without providing firm evidence.",
+      "Appeal_to_fear-prejudice": "Triggers fear or biases to persuade instead of using logic.",
+      "Causal_Oversimplification": "Claims a simple cause for a complex issue (“X happened because of Y”).",
+      "Slogans": "Short, memorable phrases intended to persuade or rally support.",
+      "Flag-Waving": "Appeals to patriotism or group loyalty to justify a position or action.",
+      "Whataboutism,Straw_Men,Red_Herring": "Distracts from the issue (whataboutism/red herring) or misrepresents an opponent’s point (straw man).",
+      "Black-and-White_Fallacy": "Frames an issue as only two choices, ignoring nuance or alternatives.",
+      "Bandwagon,Reductio_ad_hitlerum": "Urges you to follow the crowd (bandwagon) or smears by Nazi/Hitler comparisons.",
+      "Authority-Bias": "Leans on an authority figure’s status instead of argument strength.",
+      "Appeal_to_Authority": "Cites an authority or expert as proof without adequate supporting evidence."
+    };
+
+    // Normalize "article117" vs "117"
+    const normId = (x) => String(x).replace(/^article/, "");
+
+    // Researcher toggle
+    function setResearcherMode(on) {
+      const btn = document.getElementById('toggleResearcher');
+      const summary = document.getElementById('summarySection');
+      const spans   = document.getElementById('spansSection');
+      btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+      btn.textContent = `Researcher Mode: ${on ? 'On' : 'Off'}`;
+      if (summary && spans) {
+        summary.classList.toggle('hidden', on); // when on, hide summary
+        spans.classList.toggle('hidden', !on);  // when on, show spans
+      }
+    }
+    function bindResearcherToggle() {
+      const btn = document.getElementById('toggleResearcher');
+      if (!btn) return;
+      btn.addEventListener('click', () => {
+        const on = btn.getAttribute('aria-pressed') !== 'true';
+        setResearcherMode(on);
+      });
+    }
+
+    // ---- Chart helpers ----
+    const niceLabel = (s)=> (s||"").trim().replace(/_/g," ").replace(/\s+/g," ").replace(/\b\w/g,c=>c.toUpperCase());
+
+    function buildTechniqueCounts(spans){
+      const counts = {};
+      for (const sp of spans) {
+        // tc_label may be string (possibly comma-separated) or array
+        let labs = sp.tc_label;
+        if (Array.isArray(labs)) labs = labs.flat().join(',');
+        (String(labs||'').split(','))
+          .map(t => niceLabel(t))
+          .filter(Boolean)
+          .forEach(t => counts[t] = (counts[t]||0) + 1);
+      }
+      return counts;
+    }
+
+    // Canonical technique descriptions (SemEval-2020) for chart key + tooltips
+    const TECH_DESC_MAP = {
+      "Loaded Language": "Emotionally charged wording used to sway feelings rather than reason.",
+      "Name Calling, Labeling": "Attaching a negative tag to a person/group/idea to discredit it.",
+      "Repetition": "Repeating a message so it sticks and feels true through familiarity.",
+      "Exaggeration, Minimisation": "Overstating or downplaying facts to skew perception.",
+      "Doubt": "Planting uncertainty or suspicion without firm evidence.",
+      "Appeal To Fear-Prejudice": "Triggering fear or bias to persuade instead of argument.",
+      "Causal Oversimplification": "Claiming a simple cause for a complex issue.",
+      "Slogans": "Short, memorable phrases used to persuade or rally support.",
+      "Flag-Waving": "Appealing to patriotism or group loyalty to justify a view/action.",
+      "Whataboutism, Straw Men, Red Herring": "Distracting, misdirecting, or misrepresenting an opponent’s position.",
+      "Black-And-White Fallacy": "Presenting only two choices and ignoring nuance.",
+      "Bandwagon": "Urging support because “everyone else” agrees.",
+      "Reductio Ad Hitlerum": "Smearing by associating with Nazis/Hitler or similarly reviled referents.",
+      "Appeal To Authority": "Treating an authority’s claim as proof without adequate evidence.",
+      // Optional extra variants commonly seen in data
+      "Authority-Bias": "Relying on status/authority rather than argument strength (variant label)."
+    };
+
+    // Label normalizer + aliasing so tooltips work for all variants
+    const ALIASES = {
+      "name calling,labeling": "Name Calling, Labeling",
+      "name calling, labeling": "Name Calling, Labeling",
+      "black and white fallacy": "Black-And-White Fallacy",
+      "appeal to fear-prejudice": "Appeal To Fear-Prejudice",
+      "flag waving": "Flag-Waving",
+      "red herring": "Whataboutism, Straw Men, Red Herring",
+      "straw men": "Whataboutism, Straw Men, Red Herring",
+      "whataboutism": "Whataboutism, Straw Men, Red Herring",
+      "authority bias": "Authority-Bias",
+      "appeal to authority": "Appeal To Authority",
+      "loaded language": "Loaded Language",
+      "exaggeration, minimisation": "Exaggeration, Minimisation",
+      "reductio ad hitlerum": "Reductio Ad Hitlerum"
+    };
+
+    function canonKey(s){
+      if(!s) return null;
+      const norm = s.replace(/[_-]/g, " ").replace(/\s+/g," ").trim().toLowerCase();
+      return ALIASES[norm] || s.replace(/,\s*/g, ", ").replace(/\b\w/g,c=>c.toUpperCase());
+    }
+
+    // Return description; if label is a combo ("A, B"), merge both defs
+    function descFor(label){
+      if(!label) return null;
+      const parts = String(label).split(",").map(p=>p.trim()).filter(Boolean);
+      const defs = parts.map(p => TECH_DESC_MAP[canonKey(p)]).filter(Boolean);
+      return defs.length ? defs.join(" + ") : null;
+    }
+
+    let chartInstance = null;
+    function renderPie(counts){
+      const labels = Object.keys(counts);
+      const values = labels.map(l => counts[l]);
+
+      const canvas = document.getElementById('propChart');
+      const legend = document.getElementById('propLegend');
+      const keyBox = document.getElementById('propKey');
+      if (!canvas) return;
+
+      const ctx = canvas.getContext('2d');
+      if (chartInstance) chartInstance.destroy();
+
+      chartInstance = new Chart(ctx, {
+        type: 'pie',
+        data: { labels, datasets: [{ data: values }] },
+        options: {
+          responsive: true,
+          maintainAspectRatio: true,
+          aspectRatio: 1,
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              callbacks: {
+                label: (c) => {
+                  const label = c.label || "";
+                  const val = c.raw || 0;
+                  const total = values.reduce((a,b)=>a+b,0) || 1;
+                  const pct = Math.round((val/total)*100);
+                  const desc = descFor(label) ? ` – ${descFor(label)}` : "";
+                  return `${label}: ${val} (${pct}%)${desc}`;
+                }
+              }
+            }
+          }
+        }
+      });
+
+      // Legend (only techniques present in this article)
+      legend.innerHTML = labels.length
+        ? labels.map((l,i)=>{
+            const v = values[i];
+            const color = chartInstance.data.datasets[0].backgroundColor?.[i] || 'currentColor';
+            const tip = descFor(l) || "No description available.";
+            return `<div class="flex items-center gap-2" title="${tip}">
+                      <span class="inline-block w-3 h-3 rounded-sm" style="background:${color}"></span>
+                      <span>${l}</span>
+                      <span class="text-gray-400 ml-auto">${v}</span>
+                    </div>`;
+          }).join('')
+        : `<span class="text-gray-400">No techniques detected.</span>`;
+
+      // Full technique key (ALL techniques with definitions)
+      if (keyBox){
+        const all = Object.keys(TECH_DESC_MAP).sort((a,b)=>a.localeCompare(b));
+        keyBox.innerHTML = `<ul class="text-sm">
+          ${all.map(k => `
+            <li>
+              <span class="k-label">${k}</span>
+              <span class="k-desc"> — ${TECH_DESC_MAP[k]}</span>
+            </li>
+          `).join("")}
+        </ul>`;
+      }
+    }
+
+    // ===== Tooltip helper =====
+    function tipIcon(text) {
+      const safe = String(text || "").replace(/"/g, "&quot;");
+      return `
+        <span class="ts-tip">
+          <button class="ts-tip-btn" aria-label="Help" tabindex="0">?</button>
+          <span class="ts-tip-content" role="tooltip">${safe}</span>
+        </span>
+      `;
+    }
+
+    async function loadArticleData() {
+      const params = new URLSearchParams(window.location.search);
+      const id = params.get("id");
+      document.getElementById("articleIdLine").textContent = `Analysis of article ID #${id}`;
+
+      // Load articles + spans
+      const [artRes, spansRes] = await Promise.all([
+        fetch("articles_uk_us.json"),
+        fetch("si_tc_merged.json")
+      ]);
+      const articles = await artRes.json();
+      const siTc = await spansRes.json();
+
+      // NEW: load enrichment sidecar (non-breaking if missing)
+      let enrichment = {};
+      try {
+        const enrichRes = await fetch("enrichment_by_id.json");
+        if (enrichRes.ok) enrichment = await enrichRes.json();
+      } catch (_) {}
+
+      // Find the article
+      const article = articles.find(a => String(a.article_id ?? a.id) === String(id));
+      const container = document.getElementById("analysisContent");
+      if (!article) {
+        container.innerHTML = `<p class='text-red-400'>Article not found.</p>`;
+        return;
+      }
+
+      // NEW: merge enrichment into the article object (only fills if missing)
+      const idKey = normId(article.article_id ?? article.id);
+      const enr = enrichment[normId(idKey)] || {};
+      const pick = (a, b) => (a == null ? b : a);
+
+      article.textblob_polarity     = pick(article.textblob_polarity,     enr.textblob_polarity);
+      article.textblob_subjectivity = pick(article.textblob_subjectivity, enr.textblob_subjectivity);
+      article.vader_compound        = pick(article.vader_compound,        enr.vader_compound);
+      article.vader_pos             = pick(article.vader_pos,             enr.vader_pos);
+      article.vader_neu             = pick(article.vader_neu,             enr.vader_neu);
+      article.vader_neg             = pick(article.vader_neg,             enr.vader_neg);
+
+      if (!Array.isArray(article.named_entities) || !article.named_entities.length) {
+        if (Array.isArray(enr.named_entities)) article.named_entities = enr.named_entities;
+      }
+      if (!Array.isArray(article.svo_triples) || !article.svo_triples.length) {
+        if (Array.isArray(enr.svo_triples)) article.svo_triples = enr.svo_triples;
+      }
+
+      // Bias (unchanged)
+      const biasAdfontes = article.adfontes_bias_label ?? article.bias_adfontes ?? "Unknown";
+      const biasMbfc     = article.mbfc_bias_rating     ?? article.bias_mbfc     ?? "Unknown";
+      const biasAllSides = article.allsides_bias_rating ?? article.bias_allsides  ?? "Unknown";
+
+      const fmt = (x) => (x == null ? "N/A" : Number(x).toFixed(3));
+
+      // Sentiment (with tooltips on each label)
+      const ttPolarity = `
+        <span class="k">Polarity</span> is TextBlob’s overall sentiment direction from <code>-1</code> (negative) to <code>+1</code> (positive).
+        It’s lexicon-based and can miss sarcasm or domain-specific language.
+      `;
+      const ttSubjectivity = `
+        <span class="k">Subjectivity</span> estimates how opinionated the text is: <code>0</code> = objective, <code>1</code> = subjective.
+        High subjectivity doesn’t mean untrue; it just means opinion/feeling words dominate.
+      `;
+      const ttVaderCompound = `
+        <span class="k">VADER Compound</span> is a rule-based, normalized score in <code>[-1, +1]</code> tuned for social/news text.
+        It combines positives/negatives with heuristics (e.g., negations, intensifiers, ALL CAPS).
+      `;
+      const ttVaderBreakdown = `
+        <span class="k">VADER Breakdown</span> shows proportion of tokens by sentiment class:
+        <code>pos</code>, <code>neu</code>, and <code>neg</code> (they typically sum to ~1).
+        Useful for spotting mixed or polarized language.
+      `;
+
+      const sentimentHTML = `
+        <section class="space-y-4">
+          <h3 class="text-2xl font-semibold text-blue-300 default-shown">Sentiment Analysis</h3>
+          <h3 class="text-2xl font-semibold text-pink-300 font-bold genz-hidden">💬 Mood Meter</h3>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 text-gray-300">
+            <div>
+              <span class="font-bold">Polarity</span>
+              ${tipIcon(ttPolarity)}
+              : ${fmt(article.textblob_polarity)}
+            </div>
+            <div>
+              <span class="font-bold">Subjectivity</span>
+              ${tipIcon(ttSubjectivity)}
+              : ${fmt(article.textblob_subjectivity)}
+            </div>
+            <div>
+              <span class="font-bold">VADER Compound</span>
+              ${tipIcon(ttVaderCompound)}
+              : ${fmt(article.vader_compound)}
+            </div>
+            <div>
+              <span class="font-bold">VADER Breakdown</span>
+              ${tipIcon(ttVaderBreakdown)}
+              : ${
+                (article.vader_pos != null && article.vader_neu != null && article.vader_neg != null)
+                  ? `Pos: ${fmt(article.vader_pos)}, Neu: ${fmt(article.vader_neu)}, Neg: ${fmt(article.vader_neg)}`
+                  : "N/A"
+              }
+            </div>
+          </div>
+        </section>
+      `;
+
+      // Bias ratings
+      const biasHTML = `
+        <section class="space-y-4">
+          <h3 class="text-2xl font-semibold text-blue-300 default-shown">Bias Ratings</h3>
+          <h3 class="text-2xl font-semibold text-pink-300 font-bold genz-hidden">🎭 Bias Vibes Check</h3>
+          <ul class="ml-4 list-disc text-gray-300 space-y-1">
+            <li><strong>Ad Fontes:</strong> ${biasAdfontes}</li>
+            <li><strong>MBFC:</strong> ${biasMbfc}</li>
+            <li><strong>AllSides:</strong> ${biasAllSides}</li>
+          </ul>
+        </section>
+      `;
+
+      // SVO
+      const svoHTML = (article.svo_triples && article.svo_triples.length)
+        ? `
+          <section class="space-y-4">
+            <h3 class="text-2xl font-semibold text-blue-300 default-shown">SVO Triples</h3>
+            <h3 class="text-2xl font-semibold text-pink-300 font-bold genz-hidden">🕵️‍♀️ What’s the Agenda?</h3>
+            <ul class="list-disc ml-4 text-gray-200 space-y-1">
+              ${article.svo_triples.map(t => `<li>${t}</li>`).join("")}
+            </ul>
+          </section>
+        ` : "";
+
+      // NER
+      const nerHTML = (article.named_entities && article.named_entities.length)
+        ? `
+          <section class="space-y-4">
+            <h3 class="text-2xl font-semibold text-blue-300 default-shown">Named Entities</h3>
+            <h3 class="text-2xl font-semibold text-pink-300 font-bold genz-hidden">💡 Who’s Involved?</h3>
+            <ul class="list-disc ml-4 text-gray-200 space-y-1">
+              ${article.named_entities.map(ent => `<li>${ent}</li>`).join("")}
+            </ul>
+          </section>
+        ` : "";
+
+      // Ownership metrics
+      function renderMetricBlock(title, items) {
+        return `
+          <div class="bg-gray-800 p-4 rounded-lg shadow-md">
+            <div class="flex justify-between items-center border-b border-blue-700 pb-1 mb-2">
+              <h4 class="text-lg font-semibold text-blue-200">${title}</h4>
+              <a href="ts_investigate_funding.html" class="text-sm text-blue-400 hover:underline">How can I help?</a>
+            </div>
+            <ul class="text-gray-300 list-disc list-inside space-y-2">
+              ${items.map(i => `<li>${i}</li>`).join("")}
+            </ul>
+          </div>
+        `;
+      }
+      const ownershipHTML = `
+        <section class="space-y-4">
+          <h3 class="text-2xl font-semibold text-blue-300 default-shown">
+            Transparency & Ownership Metrics for <span class="text-blue-100">${article.source || "Unknown Source"}</span>
+          </h3>
+          <h3 class="text-2xl font-semibold text-pink-300 font-bold genz-hidden">🧩 Who’s Behind This?</h3>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
+            ${renderMetricBlock("Ownership & Corporate Structure", [
+              "Parent Company Research: [Blank]",
+              "Corporate Registries: [Pending]",
+              "Shell Companies: [No evidence]"
+            ])}
+            ${renderMetricBlock("Funding & Disclosure", [
+              "Official Disclosures: [Unknown]",
+              "Grant Databases: [Not yet searched]",
+              "Nonprofit Filings: [N/A]",
+              "Donor-Advised Funds: [Unknown]",
+              "Follow the Money: [Unknown]"
+            ])}
+            ${renderMetricBlock("Historical & Technical Signals", [
+              "WHOIS Lookup: [TBD]",
+              "Wayback Machine: [Snapshot Found - 2022]"
+            ])}
+            ${renderMetricBlock("Influence & Coordination", [
+              "Astroturfing Indicators: [To review]",
+              "Cross-Platform Coordination: [Possible — check content similarity with other ID #s]",
+              "Leaks/Documents: [None found]",
+              "Media Coverage: [One Guardian article 2024]",
+              "Reverse Image/Name: [Incomplete]"
+            ])}
+          </div>
+        </section>
+      `;
+
+      // Spans (raw)
+      const spansRecord = siTc.find(r => normId(r.article_id) === normId(id));
+      const spans = spansRecord?.spans ?? [];
+      const spansHTML = `
+        <section id="spansSection" class="space-y-4 hidden">
+          <h3 class="text-2xl font-semibold text-blue-300 default-shown">Propaganda Techniques Detected</h3>
+          <h3 class="text-2xl font-semibold text-pink-300 font-bold genz-hidden">🧪 Persuasion Patterns</h3>
+          ${
+            spans.length
+              ? spans.map(s => {
+                  const t = s.tc_label || "—";
+                  const desc = TECH_DESC[t] || "No description available.";
+                  return `
+                    <div class="span-box p-4 rounded-lg space-y-3">
+                      <div class="text-sm text-gray-400">Offsets: <code>${s.start}:${s.end}</code></div>
+                      <div class="p-3 rounded-md span-text text-gray-100">
+                        <span class="opacity-80">"${(s.text || "").replace(/\s+/g,' ').trim()}"</span>
+                      </div>
+                      <div class="flex items-start gap-3">
+                        <span class="tech-chip">${t}</span>
+                        <p class="text-gray-300 text-sm leading-relaxed">${desc}</p>
+                      </div>
+                    </div>
+                  `;
+                }).join("")
+              : `<p class="text-gray-400">No model spans detected for this article.</p>`
+          }
+          <p class="text-xs text-gray-500 mt-3">
+            Definitions adapted from the SemEval-2020 Task 11 paper on Propaganda Detection in News.
+            Labels are model predictions and may contain errors.
+          </p>
+        </section>
+      `;
+
+      // Summary (Reader View) — chart + full key side-by-side on md+
+      const summaryHTML = `
+        <section id="summarySection" class="space-y-4">
+          <h3 class="text-2xl font-semibold text-blue-300 default-shown">Propaganda Techniques Summary</h3>
+          <h3 class="text-2xl font-semibold text-pink-300 font-bold genz-hidden">📊 Propaganda Summary</h3>
+          <div class="grid md:grid-cols-2 gap-6 items-start">
+            <div class="bg-gray-800 p-4 rounded-lg shadow-md chart-wrap">
+              <canvas id="propChart"></canvas>
+              <div id="propLegend" class="mt-3 text-sm text-gray-300"></div>
+            </div>
+            <div class="bg-gray-800 p-4 rounded-lg shadow-md">
+              <h4 class="text-lg font-semibold text-blue-200 mb-2">Technique Key</h4>
+              <div id="propKey"></div>
+            </div>
+          </div>
+        </section>
+      `;
+
+      // Render
+      container.innerHTML = biasHTML + sentimentHTML + summaryHTML + spansHTML + svoHTML + nerHTML + ownershipHTML;
+
+      // Build & render the chart + key
+      const counts = buildTechniqueCounts(spans);
+      renderPie(counts);
+
+      // Default to Reader View
+      setResearcherMode(false);
+      bindResearcherToggle();
+    }
+
+    loadArticleData();
+  </script>
+</body>
+</html>
