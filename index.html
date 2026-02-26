@@ -16,7 +16,8 @@
 <body class="bg-gradient-to-br from-gray-900 via-blue-900 to-black text-white min-h-screen p-6">
   <header class="text-center mb-10">
     <h1 class="text-4xl sm:text-5xl font-bold text-blue-400 logo-font tracking-wider">TruthSpace</h1>
-    <p class="mt-2 text-lg text-gray-300">Choose a topic or enter a URL to analyse media narratives</p>
+    <p class="mt-2 text-lg text-gray-300">Analyse propaganda techniques and media bias in news articles</p>
+    <p class="mt-1 text-sm text-gray-500">Showing articles with full propaganda span analysis — select one to explore</p>
   </header>
 
   <main class="max-w-3xl mx-auto">
@@ -31,42 +32,64 @@
       </select>
     </section>
 
-    <!-- Recent Articles List -->
+    <!-- Article count -->
+    <section class="mb-4">
+      <p id="articleCount" class="text-sm text-gray-400"></p>
+    </section>
+
+    <!-- Articles List -->
     <section class="mb-10">
       <h2 class="text-xl font-semibold text-blue-300 mb-2">Articles by Source</h2>
       <div id="articlesBySource" class="space-y-4">
-        <!-- Grouped sources and articles appear here -->
-      </div>
-    </section>
-
-    <!-- Manual URL Input -->
-    <section class="mb-10">
-      <label for="urlInput" class="block text-lg font-semibold text-blue-300 mb-2">Analyse New Article (Paste URL):</label>
-      <div class="flex gap-2">
-        <input id="urlInput" type="text" class="flex-grow p-2 rounded-md bg-gray-800 text-white" placeholder="https://..." />
-        <button onclick="submitURL()" class="px-4 py-2 bg-blue-500 hover:bg-blue-600 rounded-md text-white">Go</button>
+        <p class="text-gray-400">Loading articles...</p>
       </div>
     </section>
   </main>
 
+  <footer class="text-center mt-10 text-sm text-gray-600">
+    <p>TruthSpace Prototype — propaganda detection and media bias analysis</p>
+    <p class="mt-1">Built on the <a href="https://aclanthology.org/2020.semeval-1.186/" target="_blank" class="text-blue-500 hover:underline">SemEval-2020 Task 11</a> propaganda detection framework</p>
+  </footer>
+
   <script>
-    async function loadImmigrationArticles() {
+    async function loadArticles() {
       try {
-        const res = await fetch('articles.json');
-        const articles = await res.json();
+        // Load both files in parallel
+        const [artRes, spansRes] = await Promise.all([
+          fetch('articles_uk_us.json'),
+          fetch('si_tc_merged.json')
+        ]);
+
+        const articles = await artRes.json();
+        const spans = await spansRes.json();
+
+        // Build set of valid article IDs from span data
+        const validIds = new Set(
+          spans.map(s => parseInt(s.article_id.replace('article', '')))
+        );
+
+        // Filter articles to only those with span data
+        const filtered = articles.filter(a => validIds.has(a.article_id));
+
+        // Update count
+        document.getElementById('articleCount').textContent =
+          `${filtered.length} articles with full propaganda analysis across ${new Set(filtered.map(a => a.source)).size} sources`;
+
         const container = document.getElementById("articlesBySource");
         container.innerHTML = "";
 
-        // Group articles by source
+        // Group by source
         const grouped = {};
-        articles.forEach(article => {
+        filtered.forEach(article => {
           const source = article.source || "Unknown";
           if (!grouped[source]) grouped[source] = [];
           grouped[source].push(article);
         });
 
-        // Render each group
-        for (const source in grouped) {
+        // Sort sources alphabetically
+        const sortedSources = Object.keys(grouped).sort();
+
+        sortedSources.forEach(source => {
           const section = document.createElement("div");
 
           const header = document.createElement("button");
@@ -79,48 +102,44 @@
 
           const list = document.createElement("ul");
           list.className = "list-disc ml-6 mt-2 text-gray-200 hidden";
+
           grouped[source].forEach(article => {
             const li = document.createElement("li");
             li.innerHTML = `
-                <div class="flex flex-wrap items-center gap-2">
-                <a href="${article.url}" target="_blank" class="text-blue-400 hover:underline">${article.title}</a>
-                <a href="ts_metricexample.html?id=${article.id}" target="_blank" class="bg-purple-700 text-sm px-2 py-1 rounded hover:bg-purple-800 text-white">Wiki</a>
-                </div>
+              <div class="flex flex-wrap items-center gap-2 py-1">
+                <a href="${article.url}" target="_blank" class="text-blue-400 hover:underline text-sm">${article.title}</a>
+                <a href="ts_metricexample.html?id=${article.article_id}" target="_blank"
+                   class="bg-purple-700 text-xs px-2 py-1 rounded hover:bg-purple-600 text-white whitespace-nowrap">
+                  Analyse →
+                </a>
+              </div>
             `;
             list.appendChild(li);
-            });
-
+          });
 
           section.appendChild(header);
           section.appendChild(list);
           container.appendChild(section);
-        }
+        });
+
       } catch (err) {
         console.error("Error loading articles:", err);
-        document.getElementById("articlesBySource").innerHTML = "<p class='text-red-400'>Failed to load articles.</p>";
-      }
-    }
-
-    function submitURL() {
-      const url = document.getElementById("urlInput").value;
-      if (url) {
-        alert("Article analysis for: " + url);
-        // In future: Send to backend
+        document.getElementById("articlesBySource").innerHTML =
+          "<p class='text-red-400'>Failed to load articles. Make sure all data files are present.</p>";
       }
     }
 
     document.getElementById("topicSelect").addEventListener("change", (e) => {
-      const topic = e.target.value;
-      if (topic === "immigration") {
-        loadImmigrationArticles();
+      if (e.target.value === "immigration") {
+        loadArticles();
       } else {
         document.getElementById("articlesBySource").innerHTML =
-          `<p class="text-yellow-400">This topic is coming soon!</p>`;
+          `<p class="text-yellow-400">This topic is coming soon.</p>`;
       }
     });
 
     // Initial load
-    loadImmigrationArticles();
+    loadArticles();
   </script>
 </body>
 </html>
