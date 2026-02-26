@@ -69,7 +69,11 @@
         );
 
         // Filter articles to only those with span data
-        const filtered = articles.filter(a => validIds.has(a.article_id));
+        // Spans use 1-based positional index (article1 = articles[0])
+        // so we filter by position, not by article_id field
+        const filtered = articles
+          .map((a, i) => ({ ...a, _spanId: i + 1 }))
+          .filter(a => validIds.has(a._spanId));
 
         // Update count
         document.getElementById('articleCount').textContent =
@@ -108,7 +112,7 @@
             li.innerHTML = `
               <div class="flex flex-wrap items-center gap-2 py-1">
                 <a href="${article.url}" target="_blank" class="text-blue-400 hover:underline text-sm">${article.title}</a>
-                <a href="ts_metricexample.html?id=${article.article_id}" target="_blank"
+                <a href="ts_metricexample.html?id=${article._spanId}" target="_blank"
                    class="bg-purple-700 text-xs px-2 py-1 rounded hover:bg-purple-600 text-white whitespace-nowrap">
                   Analyse →
                 </a>
